@@ -1,0 +1,194 @@
+{
+  "protocol.json": {
+    "sha256": "49cdf03c68bf29ac62079592b500c38244f8db1a88a1377a10b6723b1f57ec4c",
+    "size": 8358
+  },
+  "protocol.sha256": {
+    "sha256": "d9a0daafcfff8a107cb8a75d3de611a23105867129d6373873a7b704f3f7e055",
+    "size": 212
+  },
+  "rv\\common.py": {
+    "sha256": "cbd8e2e3dd81bb21504b6c4156d81edd8d0d834cd479488f7b1e1db42ecf8148",
+    "size": 1625
+  },
+  "rv\\evaluate.py": {
+    "sha256": "8c443f388b4b3bf49cd2fad882be1272ca58562b5792c926420363356570cf2c",
+    "size": 7809
+  },
+  "rv\\features.py": {
+    "sha256": "b5e74e34ebd3e0b8882a4717944527def780d5c8955bfad635adf5e5449d2b7e",
+    "size": 1860
+  },
+  "rv\\heads.py": {
+    "sha256": "9783d13a2809cf8472646a6c65778836c749cdb8623adc86bfe75eca4b6ffd36",
+    "size": 1834
+  },
+  "rv\\nets.py": {
+    "sha256": "197c3a5d975bec361ac01c70b817fbca69a2d20914e7471a94986cae39242b69",
+    "size": 6108
+  },
+  "rv\\perturb.py": {
+    "sha256": "edadfa0c6d1e991a2b534cf982302fdb22d43024f57dabce7ff75fe42c92f5af",
+    "size": 2356
+  },
+  "rv\\prep.py": {
+    "sha256": "8533a56560d21b25f280d0ed4428f210e4e2afde3eecfbc99b410e82b0925800",
+    "size": 5044
+  },
+  "rv\\report.py": {
+    "sha256": "85bdefa00a3143693260642fa97714d4c237a865b53a6505b722db2bb3529ec7",
+    "size": 8260
+  },
+  "rv\\selective.py": {
+    "sha256": "2eb7e85a62063e70960b444f4cd6724db72e6d4ce20f2e6ba4c334530a6f423a",
+    "size": 5011
+  },
+  "rv\\stats.py": {
+    "sha256": "4a6a43e4a30d1f080f9b1ae6221c4b693571b96c1181b531f9ed67fc17fb49dc",
+    "size": 2234
+  },
+  "rv\\tab.py": {
+    "sha256": "700ee14291ca89338e4a15fbc746bfcbc3d8f95e60a4772e443d57c7a98560fd",
+    "size": 925
+  },
+  "rv\\train_subject.py": {
+    "sha256": "029b3d65b19d9c01fad8e47d2e84aa4bb1457faf2dd89e5f363767dc19c9ea90",
+    "size": 7730
+  },
+  "out\\class_rejection_clean.csv": {
+    "sha256": "0e2fae7278ce5c1abaac838ade73b58493f2c614883dd58e78a9e576f9341696",
+    "size": 17893
+  },
+  "out\\class_rejection_drop1.csv": {
+    "sha256": "f3d06734d944cebc23e63a9865e1a10d6330fef0641181343c3710cdd8c86f0e",
+    "size": 17930
+  },
+  "out\\class_rejection_drop3.csv": {
+    "sha256": "4753b8a6c73c14039078086069072292ad1905f395aa941375d397608ef67737",
+    "size": 17908
+  },
+  "out\\class_rejection_drop5.csv": {
+    "sha256": "e4a60e8c710fece5c97218e80a1dd33b4882a07957a579a551b5473c75d4b572",
+    "size": 17922
+  },
+  "out\\class_rejection_eog1.csv": {
+    "sha256": "26388e4bfeed106a6c7b93691c940f155880f4d127dacb5003861603961dc20e",
+    "size": 17881
+  },
+  "out\\class_rejection_eog2.csv": {
+    "sha256": "0a391a4e7b53b35abc9602b3b007b59821e25cac17c359d3f32cfc0f3997b961",
+    "size": 17884
+  },
+  "out\\class_rejection_eog4.csv": {
+    "sha256": "8c776fd65bcd11ceea4646518990953b190f88fcba618bdf6687db64f1f86da6",
+    "size": 17868
+  },
+  "out\\subject_metrics_clean.csv": {
+    "sha256": "d61bd3677ba7d9220430640300e014bb7aabcffad726c9756acf10665400b322",
+    "size": 68346
+  },
+  "out\\subject_metrics_drop1.csv": {
+    "sha256": "fa8ad832823e6a83f26d7184f5db09429f4f4e7df5f4e7085c9b23004c004723",
+    "size": 68625
+  },
+  "out\\subject_metrics_drop3.csv": {
+    "sha256": "c45c0704740e2ee371300e06e1ee3f534645a817fa0bc949bfe3f00e3eee52ec",
+    "size": 69038
+  },
+  "out\\subject_metrics_drop5.csv": {
+    "sha256": "29a152d58ba254c63cf355ae188fee6548baa0d1a6e2c36b9078132bfc28527e",
+    "size": 69298
+  },
+  "out\\subject_metrics_eog1.csv": {
+    "sha256": "0a20d704ec222178accf0af4aa278ee01e78f9c1c734c089e5ec7ba82036f33e",
+    "size": 68301
+  },
+  "out\\subject_metrics_eog2.csv": {
+    "sha256": "3377386b19a28150e6bea14706d620b3d6bf10e2cc00dd948a57ac775bbc2931",
+    "size": 68786
+  },
+  "out\\subject_metrics_eog4.csv": {
+    "sha256": "216043b7be85c9550d6c814c1eeb05732f99c0056f83bd98099b648187c2b7cc",
+    "size": 68359
+  },
+  "out\\table_class_rejection.csv": {
+    "sha256": "cf358500a2bace10d7fb9885c86349c671b527734c1fb733e85ef7c06ea48bfb",
+    "size": 3681
+  },
+  "out\\table_forced_choice.csv": {
+    "sha256": "447a2b95a878422754c3ecec0cd022f92a03c8ce8e43d6f13969e1b083d5a68c",
+    "size": 2746
+  },
+  "out\\table_perturbation.csv": {
+    "sha256": "45b6ba32566304c11f13db7da7b4cdbd83d6aacddf0cba8501efc53e8724ee78",
+    "size": 2853
+  },
+  "out\\table_scores.csv": {
+    "sha256": "768823f77897146f5f8a886672e8499d111470f33a82bf2551e32d66dd7cd506",
+    "size": 6057
+  },
+  "out\\trials_clean.csv": {
+    "sha256": "2c2caad3449903a5b852246e54089f92fb6c568c10c5a84fa6053da8784813d7",
+    "size": 714998
+  },
+  "out\\trials_drop1.csv": {
+    "sha256": "a6f1f01abca8d1dd4ab0dc1b64406b8c3158243907bbefce160ec9cfb0bdbad5",
+    "size": 715567
+  },
+  "out\\trials_drop3.csv": {
+    "sha256": "3a0ce9a0737a2d27d862e1aa71ddf71ed5ddda66b8fad6ed13dec0e62bd97643",
+    "size": 716341
+  },
+  "out\\trials_drop5.csv": {
+    "sha256": "5ee63f9a7344be666646e5c1f5ee067469dc3bdac7a891c54171a9bc57b51d72",
+    "size": 716671
+  },
+  "out\\trials_eog1.csv": {
+    "sha256": "6cd18fe7c27681fed5f36b41edbda5b87dd5e87855411ddf657bef38d6d3e6e4",
+    "size": 715023
+  },
+  "out\\trials_eog2.csv": {
+    "sha256": "573cfaad4de596cf3cd2339c35fbe165330934a9c8b7d1fdb3a8d43dcc71eca3",
+    "size": 714974
+  },
+  "out\\trials_eog4.csv": {
+    "sha256": "b378cff0e8ba9cd39866a4730ffad56527cfc6414f8c2e4534995420a96bff4c",
+    "size": 714688
+  },
+  "out\\calibration_clean.json": {
+    "sha256": "0b30fc8ea277e275bb5e090689358c75668947594608edf7a1373466711afc98",
+    "size": 21192
+  },
+  "out\\calibration_drop1.json": {
+    "sha256": "cd04508e2dcd5fb47fe48b49c033df8e2733ad1e5e515f337e66efac716164d2",
+    "size": 21113
+  },
+  "out\\calibration_drop3.json": {
+    "sha256": "1f82979d32d1bef18d8ff5e5be950d639b14fb8d92f783940bf30f30741d9c73",
+    "size": 21012
+  },
+  "out\\calibration_drop5.json": {
+    "sha256": "eda855b832d9afb0938a63062b2b195ca690d76bfc3aca3cd1f7669f631b4d1d",
+    "size": 21109
+  },
+  "out\\calibration_eog1.json": {
+    "sha256": "ef33c93c579c2775331d74fd847594136a2b34fc44462c358c8dc3d64d3abdaf",
+    "size": 21113
+  },
+  "out\\calibration_eog2.json": {
+    "sha256": "9ea81841d15b7b1a2b1a8cb07edc90e82f4b83155a06f3a942b5d6dc1bfb16d0",
+    "size": 21518
+  },
+  "out\\calibration_eog4.json": {
+    "sha256": "84270bdee50affd77933e7c73e61b12b27925674877447dcab8c0b378bb82907",
+    "size": 21666
+  },
+  "out\\fitted_params.json": {
+    "sha256": "a2b8f29e3067a3932147e569412e2596802cab6372db27c026efe743f505a437",
+    "size": 15878
+  },
+  "out\\stats_clean.json": {
+    "sha256": "e87b3c6fd1982913c037fbc05edc03c657b05653361f642ae104db8c10d0512b",
+    "size": 15069
+  }
+}

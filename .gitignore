@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.mplconfig/
+revision/cache/*
+!revision/cache/cache_manifest.json
+revision/bci2b/cache/
+*_vit.pt
+BCICIV_2a_gdf/
+BCICIV_2b_bnci/
+true_labels/*.mat
+true_labels/*.zip

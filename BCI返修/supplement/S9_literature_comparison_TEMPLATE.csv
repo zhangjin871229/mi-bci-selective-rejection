@@ -1,0 +1,9 @@
+method,kappa_2a,protocol,notes
+"FBCSP (Ang et al., 2012)",[TO DO: verify],"T→E, subject-specific",full training session
+"EEGNet (Lawhern et al., 2018)",[TO DO: verify],[TO DO],
+FBCNet (Mane et al.),[TO DO: verify],[TO DO],
+ATCNet / physics-informed ATCNet (Altaheri et al.),[TO DO: verify],[TO DO],
+"EEG Conformer (Song et al., 2023)",[TO DO: verify],[TO DO],
+This study: FBCSP-only,0.505,"T→E, subject-specific",each model trained on 3 of 6 training runs
+This study: Concat+LR,0.422,"T→E, subject-specific",each model trained on 3 of 6 training runs
+This study: EEGNet,0.383,"T→E, subject-specific",each model trained on 3 of 6 training runs

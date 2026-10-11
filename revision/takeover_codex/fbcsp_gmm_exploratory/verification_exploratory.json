@@ -1,0 +1,64 @@
+{
+  "status": "PASS",
+  "trials": 2368,
+  "subjects": 9,
+  "predictions_unchanged": true,
+  "C_thresholds_and_saved_heads_unchanged": true,
+  "per_subject": [
+    {
+      "subject": "A01",
+      "aurc": 0.11187500615400962,
+      "q08_coverage": 0.7402135231316725,
+      "accepted_accuracy_gain": 0.0820900629619491
+    },
+    {
+      "subject": "A02",
+      "aurc": 0.4136252010399176,
+      "q08_coverage": 0.833922261484099,
+      "accepted_accuracy_gain": 0.03927352218961494
+    },
+    {
+      "subject": "A03",
+      "aurc": 0.08772567929049904,
+      "q08_coverage": 0.7838827838827839,
+      "accepted_accuracy_gain": 0.12014309677861079
+    },
+    {
+      "subject": "A04",
+      "aurc": 0.4276019568391143,
+      "q08_coverage": 0.8157894736842105,
+      "accepted_accuracy_gain": 0.046689303904923596
+    },
+    {
+      "subject": "A05",
+      "aurc": 0.3614053906309909,
+      "q08_coverage": 0.7862318840579711,
+      "accepted_accuracy_gain": 0.04377880184331795
+    },
+    {
+      "subject": "A06",
+      "aurc": 0.44333021939612416,
+      "q08_coverage": 0.8697674418604651,
+      "accepted_accuracy_gain": 0.018729013804253236
+    },
+    {
+      "subject": "A07",
+      "aurc": 0.345193991151603,
+      "q08_coverage": 0.7220216606498195,
+      "accepted_accuracy_gain": 0.07568592057761736
+    },
+    {
+      "subject": "A08",
+      "aurc": 0.09953096638533435,
+      "q08_coverage": 0.8376383763837638,
+      "accepted_accuracy_gain": 0.1086366370271632
+    },
+    {
+      "subject": "A09",
+      "aurc": 0.1298779969387524,
+      "q08_coverage": 0.6590909090909091,
+      "accepted_accuracy_gain": 0.15726227795193315
+    }
+  ],
+  "note": "Independent saved-score verification; no refitting or additional E inference."
+}

@@ -1,0 +1,28 @@
+[01:30:19] === B09 protocol_2b sha 53a30bc842ef
+[01:30:25]   vit ep 10/200 train 0.6942 val_nll 0.6755 val_acc 0.547
+[01:30:30]   vit ep 20/200 train 0.6771 val_nll 0.6916 val_acc 0.547
+[01:30:35]   vit ep 30/200 train 0.6968 val_nll 0.6872 val_acc 0.531
+[01:30:40]   vit ep 40/200 train 0.7034 val_nll 0.6827 val_acc 0.562
+[01:30:45]   vit ep 50/200 train 0.6852 val_nll 0.6878 val_acc 0.484
+[01:30:50]   vit ep 60/200 train 0.6620 val_nll 0.7357 val_acc 0.500
+[01:30:55]   vit ep 70/200 train 0.6797 val_nll 0.7264 val_acc 0.516
+[01:31:00]   vit ep 80/200 train 0.6634 val_nll 0.6965 val_acc 0.531
+[01:31:05]   vit ep 90/200 train 0.6612 val_nll 0.6963 val_acc 0.531
+[01:31:10]   vit ep 100/200 train 0.6540 val_nll 0.7051 val_acc 0.547
+[01:31:14]   vit ep 110/200 train 0.6509 val_nll 0.6839 val_acc 0.594
+[01:31:19]   vit ep 120/200 train 0.6434 val_nll 0.6909 val_acc 0.578
+[01:31:24]   vit ep 130/200 train 0.6700 val_nll 0.6787 val_acc 0.609
+[01:31:29]   vit ep 140/200 train 0.6517 val_nll 0.6883 val_acc 0.547
+[01:31:34]   vit ep 150/200 train 0.6723 val_nll 0.6800 val_acc 0.609
+[01:31:39]   vit ep 160/200 train 0.6604 val_nll 0.6800 val_acc 0.562
+[01:31:44]   vit ep 170/200 train 0.6477 val_nll 0.6858 val_acc 0.578
+[01:31:49]   vit ep 180/200 train 0.6811 val_nll 0.6845 val_acc 0.594
+[01:31:54]   vit ep 190/200 train 0.6093 val_nll 0.6886 val_acc 0.594
+[01:31:59]   vit ep 200/200 train 0.6593 val_nll 0.6887 val_acc 0.594
+[01:31:59] ViT epoch selection: 10 (nll) (99s)
+[01:32:13] member 1: done (13s), n_A=172 n_B=109 n_C=36, fbcsp-gmm d=8, mibif [6, 7, 9, 10, 18, 21, 24, 25, 27, 28, 30, 32, 33, 35, 48, 51]
+[01:32:27] member 2: done (14s), n_A=167 n_B=114 n_C=36, fbcsp-gmm d=8, mibif [6, 7, 9, 10, 19, 22, 25, 28, 30, 31, 33, 34, 38, 41, 48, 51]
+[01:32:40] member 3: done (13s), n_A=173 n_B=108 n_C=36, fbcsp-gmm d=8, mibif [12, 15, 19, 22, 24, 27, 30, 32, 33, 35, 38, 41, 44, 47, 49, 52]
+[01:32:53] member 4: done (13s), n_A=167 n_B=114 n_C=36, fbcsp-gmm d=8, mibif [6, 9, 13, 16, 18, 19, 21, 22, 32, 35, 37, 40, 48, 50, 51, 53]
+[01:33:06] member 5: done (13s), n_A=164 n_B=117 n_C=36, fbcsp-gmm d=8, mibif [1, 4, 6, 8, 9, 11, 13, 16, 19, 22, 25, 26, 28, 29, 38, 41]
+[01:33:06] === B09 finished

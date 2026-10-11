@@ -1,0 +1,66 @@
+[10:16:48] === A02 protocol bspc-r1-v1 sha fa8ca75d17be pilot=False
+[10:17:23]   vit ep 10/200 train 1.3881 val_nll 1.3574 val_acc 0.304
+[10:17:48]   vit ep 20/200 train 1.3088 val_nll 1.3210 val_acc 0.326
+[10:18:12]   vit ep 30/200 train 1.2022 val_nll 1.3195 val_acc 0.348
+[10:18:35]   vit ep 40/200 train 1.2597 val_nll 1.3243 val_acc 0.283
+[10:19:00]   vit ep 50/200 train 1.2864 val_nll 1.3047 val_acc 0.326
+[10:19:26]   vit ep 60/200 train 1.2153 val_nll 1.3166 val_acc 0.326
+[10:19:49]   vit ep 70/200 train 1.2484 val_nll 1.2605 val_acc 0.283
+[10:20:12]   vit ep 80/200 train 1.2347 val_nll 1.2898 val_acc 0.283
+[10:20:36]   vit ep 90/200 train 1.2518 val_nll 1.2832 val_acc 0.348
+[10:21:01]   vit ep 100/200 train 1.1341 val_nll 1.3007 val_acc 0.304
+[10:21:24]   vit ep 110/200 train 1.1461 val_nll 1.2889 val_acc 0.391
+[10:21:49]   vit ep 120/200 train 1.1914 val_nll 1.3029 val_acc 0.370
+[10:22:12]   vit ep 130/200 train 1.1978 val_nll 1.3132 val_acc 0.370
+[10:22:35]   vit ep 140/200 train 1.1559 val_nll 1.3706 val_acc 0.283
+[10:22:59]   vit ep 150/200 train 1.1543 val_nll 1.3385 val_acc 0.304
+[10:23:22]   vit ep 160/200 train 1.1452 val_nll 1.3273 val_acc 0.326
+[10:23:47]   vit ep 170/200 train 1.0931 val_nll 1.3316 val_acc 0.304
+[10:24:10]   vit ep 180/200 train 1.1559 val_nll 1.3490 val_acc 0.283
+[10:24:34]   vit ep 190/200 train 1.0741 val_nll 1.3395 val_acc 0.304
+[10:24:58]   vit ep 200/200 train 1.1697 val_nll 1.3382 val_acc 0.304
+[10:24:58] ViT epoch selection: 71 (482s)
+[10:25:01]   eegnet ep 10/300 train 1.3378 val_nll 1.3979 val_acc 0.261
+[10:25:04]   eegnet ep 20/300 train 1.2249 val_nll 1.4022 val_acc 0.348
+[10:25:07]   eegnet ep 30/300 train 1.0592 val_nll 1.3958 val_acc 0.283
+[10:25:10]   eegnet ep 40/300 train 0.8984 val_nll 1.4053 val_acc 0.304
+[10:25:13]   eegnet ep 50/300 train 0.7857 val_nll 1.4252 val_acc 0.261
+[10:25:15]   eegnet ep 60/300 train 0.6547 val_nll 1.4707 val_acc 0.261
+[10:25:18]   eegnet ep 70/300 train 0.5653 val_nll 1.4914 val_acc 0.348
+[10:25:20]   eegnet ep 80/300 train 0.5299 val_nll 1.5378 val_acc 0.304
+[10:25:23]   eegnet ep 90/300 train 0.4232 val_nll 1.5272 val_acc 0.326
+[10:25:26]   eegnet ep 100/300 train 0.3552 val_nll 1.5180 val_acc 0.370
+[10:25:28]   eegnet ep 110/300 train 0.2560 val_nll 1.4742 val_acc 0.457
+[10:25:31]   eegnet ep 120/300 train 0.2055 val_nll 1.4986 val_acc 0.435
+[10:25:34]   eegnet ep 130/300 train 0.1694 val_nll 1.5524 val_acc 0.413
+[10:25:36]   eegnet ep 140/300 train 0.2341 val_nll 1.5720 val_acc 0.435
+[10:25:39]   eegnet ep 150/300 train 0.1724 val_nll 1.6491 val_acc 0.478
+[10:25:41]   eegnet ep 160/300 train 0.1702 val_nll 1.6260 val_acc 0.457
+[10:25:44]   eegnet ep 170/300 train 0.1699 val_nll 1.6847 val_acc 0.413
+[10:25:47]   eegnet ep 180/300 train 0.1201 val_nll 1.7284 val_acc 0.478
+[10:25:49]   eegnet ep 190/300 train 0.1044 val_nll 1.7621 val_acc 0.435
+[10:25:52]   eegnet ep 200/300 train 0.0990 val_nll 1.7666 val_acc 0.435
+[10:25:54]   eegnet ep 210/300 train 0.0871 val_nll 1.8001 val_acc 0.435
+[10:25:57]   eegnet ep 220/300 train 0.1016 val_nll 1.8151 val_acc 0.457
+[10:26:00]   eegnet ep 230/300 train 0.0869 val_nll 1.7642 val_acc 0.478
+[10:26:02]   eegnet ep 240/300 train 0.0750 val_nll 1.7930 val_acc 0.457
+[10:26:05]   eegnet ep 250/300 train 0.0349 val_nll 1.8725 val_acc 0.457
+[10:26:08]   eegnet ep 260/300 train 0.0512 val_nll 1.9742 val_acc 0.457
+[10:26:10]   eegnet ep 270/300 train 0.0693 val_nll 1.9938 val_acc 0.457
+[10:26:13]   eegnet ep 280/300 train 0.0392 val_nll 1.9745 val_acc 0.478
+[10:26:16]   eegnet ep 290/300 train 0.0389 val_nll 1.9821 val_acc 0.435
+[10:26:18]   eegnet ep 300/300 train 0.0550 val_nll 2.0424 val_acc 0.435
+[10:26:18] EEGNet epoch selection: 1 (80s)
+[10:48:28] === A02 protocol bspc-r1-v1 sha 49cdf03c68bf pilot=False
+[10:48:28] epochs (amendment 1): vit 71 (nll, v1 71), eegnet 275 (acc_fallback, v1 1)
+[10:54:16] member 1: representation trained (348s)
+[10:54:47] member 1: done (379s), n_A=136 n_B=94 n_C=40
+[11:01:16] member 2: representation trained (388s)
+[11:01:42] member 2: done (415s), n_A=139 n_B=91 n_C=40
+[11:09:31] member 3: representation trained (469s)
+[11:10:16] member 3: done (514s), n_A=140 n_B=90 n_C=40
+[11:16:31] member 4: representation trained (374s)
+[11:16:57] member 4: done (401s), n_A=139 n_B=91 n_C=40
+[11:23:30] member 5: representation trained (392s)
+[11:23:53] member 5: done (415s), n_A=136 n_B=94 n_C=40
+[11:23:53] === A02 finished

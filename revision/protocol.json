@@ -1,0 +1,234 @@
+{
+  "protocol_id": "bspc-r1-v1",
+  "status": "FROZEN 2026-10-04 by author approval, before any E-session label was read by the revision pipeline; epoch-selection mode member1; amendment 1 applied 2026-10-04 before any E label was read",
+  "data": {
+    "dataset": "BCI Competition IV 2a, 9 subjects, 22 EEG channels, 4 classes",
+    "source": "raw GDF + official true_labels (see true_labels/PROVENANCE.md)",
+    "artifact_rule": "trials containing event 1023 excluded (T and E)",
+    "cleaning": "EOG OLS regression over whole session (unsupervised), 50 Hz notch, common average reference; units microvolts",
+    "epoch_cache_window_s": [
+      0.0,
+      4.0
+    ]
+  },
+  "split": {
+    "D_runs": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "C_run": 6,
+    "E": "full evaluation session",
+    "members": {
+      "1": {
+        "A": [
+          3,
+          4,
+          5
+        ],
+        "A_fit": [
+          3,
+          4
+        ],
+        "A_val": [
+          5
+        ],
+        "B": [
+          1,
+          2
+        ]
+      },
+      "2": {
+        "A": [
+          1,
+          4,
+          5
+        ],
+        "A_fit": [
+          1,
+          4
+        ],
+        "A_val": [
+          5
+        ],
+        "B": [
+          2,
+          3
+        ]
+      },
+      "3": {
+        "A": [
+          1,
+          2,
+          5
+        ],
+        "A_fit": [
+          1,
+          2
+        ],
+        "A_val": [
+          5
+        ],
+        "B": [
+          3,
+          4
+        ]
+      },
+      "4": {
+        "A": [
+          1,
+          2,
+          3
+        ],
+        "A_fit": [
+          1,
+          2
+        ],
+        "A_val": [
+          3
+        ],
+        "B": [
+          4,
+          5
+        ]
+      },
+      "5": {
+        "A": [
+          2,
+          3,
+          4
+        ],
+        "A_fit": [
+          2,
+          3
+        ],
+        "A_val": [
+          4
+        ],
+        "B": [
+          5,
+          1
+        ]
+      }
+    },
+    "ensemble": "arithmetic mean of member class probabilities (decoder) and of member GMM posteriors"
+  },
+  "epoch_selection": {
+    "mode": "member1",
+    "rule": "amendment 1 (see amendments)",
+    "alternative_full": "each member selects its own epoch (not used unless stated)",
+    "rule_v1": "train on A_fit of member 1, choose the epoch with minimum A_val NLL (earliest on ties) after a 5-epoch moving average; all 5 members are then trained on their full A_j for that number of epochs with the same schedule"
+  },
+  "vit": {
+    "architecture": "ChannelViT as in the original paper: timm vit_tiny, depth 6, 8 heads, embed 192, patch 16 on a 33x64 STFT map per channel (2x4 tokens per channel), shared across channels, mean channel pooling",
+    "input": "per-trial: db4 wavelet soft-threshold denoising, 8-30 Hz band-pass (4th-order Butterworth, zero phase), STFT hann nperseg 64 / noverlap 48 / nfft 64 on 0-4 s; magnitude in microvolts; log1p; per-(channel,freq,time) z-score with A_j statistics",
+    "optimizer": "AdamW lr 1e-4, weight decay 0.05, cosine schedule over the selected epochs, batch 32",
+    "max_epochs": 200,
+    "augmentation": "as original (Gaussian noise 0.12, time/frequency masks, channel drop 0.12, time shift, scale) on training batches only"
+  },
+  "fbcsp": {
+    "window_s": [
+      0.5,
+      2.5
+    ],
+    "filter_bank": "9 bands 4-40 Hz, 4 Hz wide, 4th-order Butterworth",
+    "csp": "one-vs-rest, 4 components (2 pairs) per class and band, OAS-regularized, log-variance",
+    "selection": "MIBIF, k = 16 fixed a priori, fitted on A_j",
+    "fbcsp_only_head": "multinomial LR (C = 1) on B_j"
+  },
+  "eegnet": {
+    "architecture": "EEGNet-8,2 (Lawhern et al. 2018), dropout 0.5, kernel 64, native softmax head",
+    "input": "0.5-4.0 s, 4-38 Hz band-pass, per-channel z-score with A_j statistics",
+    "optimizer": "Adam lr 1e-3, batch 32",
+    "max_epochs": 300,
+    "embedding_for_gmm": "flattened output of the last separable-conv block"
+  },
+  "heads": {
+    "concat_lr": "StandardScaler + multinomial LogisticRegression(C = 1, lbfgs, max_iter 2000) on [MIBIF-FBCSP features, ViT 192-d embedding], fitted on B_j",
+    "gmm": "StandardScaler + PCA(d = min(8, n_B - 1)) + per-class GaussianMixture(M = 1, diag, reg_covar 1e-3), equal class priors from B_j counts, fitted on B_j embeddings of the same member"
+  },
+  "scores": {
+    "aligned_gmm": "p_G(y = yhat_F | x), p_G = member-mean GMM posterior, yhat_F = argmax of member-mean decoder probability",
+    "max_gmm": "max_c p_G(c | x) (historical comparator)",
+    "msp": "max_c p_F(c | x)",
+    "neg_entropy": "sum_c p_F log p_F",
+    "ts_msp": "MSP after temperature scaling",
+    "ts_neg_entropy": "negative entropy after temperature scaling",
+    "random": "seeded random order (reference)",
+    "oracle": "correct before incorrect (reference)"
+  },
+  "temperature": {
+    "data": "run C only",
+    "objective": "4-class NLL of softmax(log p_F / T)",
+    "search": "bounded scalar minimisation on [0.25, 4]; fallback T = 1 on failure"
+  },
+  "thresholds": {
+    "q_primary": 0.8,
+    "q_secondary": [
+      0.7,
+      0.9
+    ],
+    "rule": "per subject and score: sort C scores descending, threshold = score at rank ceil(q * n_C); accept if score >= threshold; ties accepted"
+  },
+  "evaluation": {
+    "aurc": "AURC = (1/N) sum_k risk_k over the E trials of one subject sorted by score; ties in score broken by a fixed label-free hash of trial_id",
+    "e_aurc": "AURC - AURC_oracle",
+    "aggregation": "per subject, then unweighted mean over 9 subjects",
+    "calibration": "8 equal-width bins on [0,1], top-label ECE/MCE, NLL, multiclass Brier",
+    "matched_coverage": [
+      0.7,
+      0.8,
+      0.9
+    ]
+  },
+  "statistics": {
+    "unit": "subject (n = 9)",
+    "primary": "two-sided exact Wilcoxon signed-rank on per-subject AURC(aligned_gmm) - AURC(msp), main decoder",
+    "families_holm": {
+      "A": "main decoder: aligned_gmm vs ts_msp, neg_entropy, ts_neg_entropy, max_gmm (AURC)",
+      "B": "q = 0.8, aligned_gmm and ts_msp: accepted vs full accuracy, kappa; gain over random rejection",
+      "C": "EEGNet: aligned_gmm vs msp, ts_msp (AURC)",
+      "D": "perturbations: aligned_gmm vs ts_msp AURC at the highest level of each perturbation"
+    },
+    "effect_size": "matched-pairs rank-biserial r",
+    "ci": "subject bootstrap of the mean and median paired difference, 10000 resamples, seed 2026, percentile",
+    "sd": "sample SD (ddof = 1)"
+  },
+  "perturbations": {
+    "applied_to": "cleaned E epochs (microvolts) before every model-specific transform; models, temperatures and thresholds unchanged",
+    "channel_dropout": {
+      "k": [
+        1,
+        3,
+        5
+      ],
+      "fill": "per-time mean of remaining channels",
+      "order": "fixed random channel permutation per subject, seed 7"
+    },
+    "eog_mixing": {
+      "gain": [
+        1,
+        2,
+        4
+      ],
+      "source": "EOG segments from the E-session eye-movement block (event 1072), propagated with beta estimated on that block; random segment start per trial, seed 11"
+    }
+  },
+  "seeds": {
+    "base": 2026
+  },
+  "amendments": [
+    {
+      "id": 1,
+      "date": "2026-10-04",
+      "approved_by": "author",
+      "before_E_labels_read": true,
+      "previous_protocol_sha256": "fa8ca75d17be1d2d785bd40338d95894293468b85b8ef5dbdaccc00013d50ccf",
+      "reason": "For A02 the EEGNet validation NLL (run 5, ~46 trials) increased monotonically from epoch 1 while validation accuracy rose from 0.15 to 0.48, so the v1 rule selected 1 epoch (an essentially untrained network).",
+      "change": "epoch_selection.rule replaced by: minimum 5-epoch moving-average validation NLL over epochs >= 10; if that value is not lower than the epoch-1 value, use the epoch maximising 5-epoch moving-average validation accuracy (earliest on ties). Applies to ChannelViT and EEGNet, all subjects. v1 selections are kept in models/<S>/epochs.json (*_v1).",
+      "consequence": "A01 members trained under v1 were archived (models_v1_archive/, out/raw_v1_archive/) and retrained; no evaluation-session labels had been read."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "analysis_id": "posthoc-fbcsp-gmm-v1",
+  "status": "EXPLORATORY_AFTER_PRIMARY_E_RESULTS_SEEN",
+  "frozen_utc": "2026-10-05T12:36:00.112231+00:00",
+  "user_scope": "One FBCSP-GMM gate, all nine subjects; retain inherited main analysis; no variant search.",
+  "inherited_protocol_sha256": "49cdf03c68bf29ac62079592b500c38244f8db1a88a1377a10b6723b1f57ec4c",
+  "inherited_primary_stats_sha256": "e87b3c6fd1982913c037fbc05edc03c657b05653361f642ae104db8c10d0512b",
+  "code_sha256": "b144b8c334bede30d106d0f83f6bc3f9d5bf6e1844cae80f90fa24ca9f5b152c",
+  "decoder": "Unchanged five-member Concat+LR probability mean",
+  "representation": "Each inherited member's A_j-fitted FBCSP+MIBIF k=16; no refitting CSP/selection",
+  "head": "Member-specific StandardScaler -> PCA up to 8 -> per-class 1 diagonal Gaussian, reg=1e-3; B_j only",
+  "class_prior": "Empirical class counts on B_j, matching inherited GMMHead implementation",
+  "seed_rule": "Inherited member_seed(subject,member,base=2026)",
+  "gate": "Mean five FBCSP-GMM posteriors, indexed by frozen ensemble Concat+LR argmax",
+  "thresholds": "C run6 score quantiles q=.7/.8/.9, accept all ties; do not refit decoder temperature",
+  "evaluation": "Clean E only; no disturbance or representation variants added",
+  "comparisons": [
+    "AURC FBCSP-GMM - TS-MSP",
+    "AURC FBCSP-GMM - raw MSP",
+    "AURC FBCSP-GMM - ViT-GMM"
+  ],
+  "inference": "All exploratory; two-sided paired sign-enumeration Wilcoxon, subject bootstrap CI, Holm over 3 comparisons",
+  "interpretation": "Supplement only; no change to primary endpoint, abstract or prior confirmatory claim",
+  "fit_failures": "Missing classes, fewer than 2 class samples, nonfinite features, nonconverged or nonpositive variances: stop and report; no E-driven fallback"
+}

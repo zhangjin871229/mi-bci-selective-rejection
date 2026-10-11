@@ -1,0 +1,72 @@
+{
+  "protocol_id": "bspc-r1-2b-validation-v1",
+  "status": "FROZEN 2026-10-06 by author instruction (keep 2a settings; single one-sided primary test), before any 2b evaluation-session label was read",
+  "purpose": "Pre-specified independent validation, on BCI Competition IV 2b, of the post hoc 2a exploratory finding X1 (exploratory_spec.md): the aligned GMM gate fitted on FBCSP features ranks errors of the Concat+LR decoder better than its maximum softmax probability (MSP).",
+  "parent_protocol": {
+    "file": "../protocol.json",
+    "protocol_id": "bspc-r1-v1",
+    "sha256": "49cdf03c68bf29ac62079592b500c38244f8db1a88a1377a10b6723b1f57ec4c",
+    "exploratory_spec": "../exploratory_spec.md"
+  },
+  "principle": "All model, head, score, threshold, metric and statistic settings are inherited unchanged from bspc-r1-v1 and the X1 specification. The only differences are the adaptations listed under 'adaptations', each forced by the format of data set 2b (3 bipolar channels, 2 classes, 5 sessions). No setting was tuned on 2b data. Nothing is added after freezing; any deviation is reported as a deviation.",
+  "label_firewall": {
+    "statement": "Frozen before any evaluation-session (04E, 05E) label was read. Before freezing, only B01T.mat (training sessions) was opened, to check the file structure (fields, channel count, units, trial and artifact counts, run gaps in 03T) and that the C3/C4 8-30 Hz lateralization starts 3-4 s after the trial marker (confirming cue = marker + 3 s); no model had been trained on 2b.",
+    "mechanism": "prep writes E-session inputs and E labels to separate files; training and inference code never open the E-label file; the evaluation script refuses to run unless this file's status starts with FROZEN and its SHA-256 matches protocol_2b.sha256."
+  },
+  "data": {
+    "dataset": "BNCI Horizon 2020 data set 004-2014 (= BCI Competition IV 2b), 9 subjects B01-B09, MAT files B0xT.mat (sessions 01T, 02T, 03T) and B0xE.mat (sessions 04E, 05E) from https://lampx.tugraz.at/~bci/database/004-2014/",
+    "channels": "EEG: 3 bipolar channels C3, Cz, C4 (columns 1-3); EOG: 3 monopolar channels (columns 4-6), used only for artifact regression, never as classifier input",
+    "classes": "2: left hand (1), right hand (2)",
+    "artifact_rule": "trials flagged in the 'artifacts' field excluded (T and E), as the 1023 rule in 2a",
+    "cleaning": "per session (each of the 5 sessions separately): EOG OLS regression over the whole session (unsupervised, intercept + 3 EOG), 50 Hz notch; units microvolts. No common average reference (see adaptations).",
+    "epoch_cache_window_s": [0.0, 4.0],
+    "time_zero": "cue onset = trial marker + 3 s (screening: cue at 3 s; feedback: cue from 3 s), per the data set description"
+  },
+  "split": {
+    "T": "concatenation of sessions 01T, 02T, 03T in recording order (400 cue trials before artifact exclusion)",
+    "C_block": "the last run of session 03T (its last 40 cue trials); plays the role of 2a run 6",
+    "D_blocks": "the remaining 360 cue trials (01T, 02T, 03T runs 1-3) cut, in recording order and before artifact exclusion, into 5 contiguous blocks of 72 cue trials, numbered 1-5; they play the role of 2a runs 1-5",
+    "E": "sessions 04E and 05E combined (320 cue trials before artifact exclusion)",
+    "members": "identical to bspc-r1-v1 with run k replaced by D block k: member 1 A=[3,4,5] A_fit=[3,4] A_val=[5] B=[1,2]; member 2 A=[1,4,5] A_fit=[1,4] A_val=[5] B=[2,3]; member 3 A=[1,2,5] A_fit=[1,2] A_val=[5] B=[3,4]; member 4 A=[1,2,3] A_fit=[1,2] A_val=[3] B=[4,5]; member 5 A=[2,3,4] A_fit=[2,3] A_val=[4] B=[5,1]",
+    "ensemble": "arithmetic mean of member class probabilities (decoder) and of member GMM posteriors"
+  },
+  "epoch_selection": "bspc-r1-v1 amendment-1 rule, mode member1 (train on A_fit of member 1; minimum 5-epoch moving-average A_val NLL over epochs >= 10, accuracy fallback; all members trained on full A_j for that number of epochs). Applied to ChannelViT only.",
+  "vit": "as bspc-r1-v1 (ChannelViT, timm vit_tiny depth 6, 8 heads, embed 192, patch 16 on 33x64 STFT per channel, shared across channels, mean channel pooling; db4 soft-threshold denoising, 8-30 Hz band-pass, STFT hann 64/48/64 on 0-4 s, log1p of microvolt magnitude, per-(channel,freq,time) z-score with A_j statistics; AdamW 1e-4, wd 0.05, cosine, batch 32, max 200 epochs; same augmentation) with n_channels = 3 and n_classes = 2",
+  "fbcsp": "as bspc-r1-v1 (0.5-2.5 s window, 9 bands 4-40 Hz, 4th-order Butterworth, one-vs-rest CSP per class and band, OAS, log-variance, MIBIF k = 16 fitted on A_j) with CSP components per class and band = min(4, n_channels) = 3 and the one-vs-rest loop over the 2 classes present",
+  "heads": {
+    "concat_lr": "as bspc-r1-v1: StandardScaler + LogisticRegression(C = 1, lbfgs, max_iter 2000) on [MIBIF-FBCSP features, ViT 192-d embedding], fitted on B_j",
+    "fbcsp_gmm": "as X1: StandardScaler + PCA(d = min(8, n_features, n_B - 1)) + per-class GaussianMixture(M = 1, diag, reg_covar 1e-3, member seed), class priors from B_j counts, fitted on the member's MIBIF-selected FBCSP features of B_j",
+    "vit_gmm": "as bspc-r1-v1 aligned GMM on ViT embeddings (descriptive only)"
+  },
+  "scores": {
+    "fbcsp_gmm": "p_G(y = yhat_F | x), p_G = member-mean FBCSP-GMM posterior, yhat_F = argmax of member-mean Concat+LR probability",
+    "msp": "max_c p_F(c | x), Concat+LR ensemble",
+    "descriptive_only": ["ts_msp (temperature fitted on C block, bounded [0.25, 4])", "vit_gmm aligned", "oracle", "random"]
+  },
+  "evaluation": {
+    "aurc": "as bspc-r1-v1: AURC = (1/N) sum_k risk_k over the E trials of one subject sorted by score (descending); ties broken by the fixed label-free MD5 hash of trial_id",
+    "unit": "subject (n = 9); per-subject AURC over all non-artifact E trials of 04E and 05E combined"
+  },
+  "primary_test": {
+    "the_only_confirmatory_test": true,
+    "hypothesis": "H1: AURC(fbcsp_gmm) < AURC(msp) on the Concat+LR decoder (lower is better). H0: the distribution of per-subject differences d_s = AURC_s(fbcsp_gmm) - AURC_s(msp) is symmetric about 0.",
+    "test": "one-sided exact Wilcoxon signed-rank test (lower tail) on the 9 per-subject differences; exact enumeration of all 2^n sign assignments; zero differences (|d| <= 1e-12) dropped; ties get mean ranks; p = P(W+ <= observed W+) under H0",
+    "alpha": 0.05,
+    "multiplicity": "none (single test)",
+    "decision_rule": "Validated if p_one_sided < 0.05. Otherwise reported as not validated. Reported regardless of outcome.",
+    "effect_size_and_ci": "mean and median of d_s, matched-pairs rank-biserial r, subject-bootstrap percentile 95% CI of the mean (10000 resamples, seed 2026), sample SD (ddof = 1); descriptive"
+  },
+  "descriptive_reporting": "Per-subject and mean AURC for fbcsp_gmm, msp, ts_msp, vit_gmm, oracle; correctness AUROC; forced-choice accuracy and kappa of Concat+LR; C-block-threshold coverage and accepted accuracy at q = 0.8. No p-values are computed for these.",
+  "adaptations": [
+    "Channels 22 -> 3 and classes 4 -> 2: n_channels / n_classes of ChannelViT, CSP components min(4, 3) = 3, one-vs-rest loop over the 2 present classes, kappa over labels {0, 1}.",
+    "Common average reference dropped: 2b EEG channels are already bipolar derivations; a CAR over 3 bipolar channels is not a meaningful reference and makes the data rank-deficient.",
+    "Split: 2a run structure (6 runs of 48 in one T session) replaced by the block mapping above, because 2b has 3 training sessions and run boundaries of 01T/02T are not stored in the MAT files.",
+    "EOG regression applied per session (2b has 5 sessions per subject); whole-session OLS as in 2a.",
+    "EEGNet, perturbation analyses and secondary Holm families of bspc-r1-v1 are not run: they are not needed for the single pre-specified test."
+  ],
+  "seeds": {
+    "base": 2026,
+    "member_seed": "base + 1000 * subject number + 10 * member (as bspc-r1-v1)"
+  },
+  "deviations_policy": "Any unavoidable deviation found after freezing (e.g. a crash or a data defect) is recorded in deviations.md with date and reason, and whether any E label had been read at that time."
+}

@@ -1,0 +1,283 @@
+{'subject': 'B02', 'T_md5': 'b27d57dd0795564598bfcf7eed7ae77d', 'T_per_block': {1: 61, 2: 58, 3: 56, 4: 64, 5: 62, 6: 28}, 'T_per_class': {1: 163, 2: 166}, 'T_artifacts': 71, 'eeg_std_uv': 2.8348846435546875, 'E_md5': '0d40b7ba94724ddc3135db133df4167e', 'E_n': 245, 'E_artifacts': 35}
+{'subject': 'B03', 'T_md5': '01b4e6a6d5a269d9342eaf5a3a8a3f05', 'T_per_block': {1: 55, 2: 52, 3: 53, 4: 57, 5: 53, 6: 26}, 'T_per_class': {1: 146, 2: 150}, 'T_artifacts': 104, 'eeg_std_uv': 5.274117946624756, 'E_md5': '41d02fc0cb4a1e5d44e076b19908a777', 'E_n': 230, 'E_artifacts': 90}
+Traceback (most recent call last):
+  File "E:/20260725桌面文件/BCI/revision/bci2b/rv2b/prep2b.py", line 105, in <module>
+    info = build(s)
+  File "E:/20260725桌面文件/BCI/revision/bci2b/rv2b/prep2b.py", line 67, in build
+    assert n == [120, 120, 160], n
+AssertionError: [120, 140, 160]
+BATCH1 DONE
+{'subject': 'B01', 'T_sessions': [120, 120, 160], 'T_md5': '9b2c6ac44c57ca7c98b471dc75de3140', 'T_per_block': {1: 61, 2: 59, 3: 60, 4: 57, 5: 56, 6: 31}, 'T_per_class': {1: 159, 2: 165}, 'T_artifacts': 76, 'eeg_std_uv': 3.237389087677002, 'E_md5': '4963e97e8be40cfdcf3a1a1694056ec0', 'E_n': 228, 'E_artifacts': 92}
+{'subject': 'B02', 'T_sessions': [120, 120, 160], 'T_md5': 'b27d57dd0795564598bfcf7eed7ae77d', 'T_per_block': {1: 61, 2: 58, 3: 56, 4: 64, 5: 62, 6: 28}, 'T_per_class': {1: 163, 2: 166}, 'T_artifacts': 71, 'eeg_std_uv': 2.8348846435546875, 'E_md5': '0d40b7ba94724ddc3135db133df4167e', 'E_n': 245, 'E_artifacts': 35}
+{'subject': 'B03', 'T_sessions': [120, 120, 160], 'T_md5': '01b4e6a6d5a269d9342eaf5a3a8a3f05', 'T_per_block': {1: 55, 2: 52, 3: 53, 4: 57, 5: 53, 6: 26}, 'T_per_class': {1: 146, 2: 150}, 'T_artifacts': 104, 'eeg_std_uv': 5.274117946624756, 'E_md5': '41d02fc0cb4a1e5d44e076b19908a777', 'E_n': 230, 'E_artifacts': 90}
+{'subject': 'B05', 'T_sessions': [120, 140, 160], 'T_md5': 'af20a937b318bd1f3b58942a4296b8d4', 'T_per_block': {1: 64, 2: 71, 3: 73, 4: 71, 5: 64, 6: 39}, 'T_per_class': {1: 193, 2: 189}, 'T_artifacts': 38, 'eeg_std_uv': 4.108395576477051, 'E_md5': '1837956e25c031deae8a876c6b74697f', 'E_n': 273, 'E_artifacts': 47}
+{'subject': 'B07', 'T_sessions': [120, 120, 160], 'T_md5': '179f72fdf1f3de82c61ed4d8ff048d68', 'T_per_block': {1: 62, 2: 69, 3: 66, 4: 68, 5: 63, 6: 28}, 'T_per_class': {1: 178, 2: 178}, 'T_artifacts': 44, 'eeg_std_uv': 2.4754855632781982, 'E_md5': '9057e0a5af8915fffe57aca1f838734d', 'E_n': 232, 'E_artifacts': 88}
+{'subject': 'B08', 'T_sessions': [160, 120, 160], 'T_md5': '818ec5641f056e976623ff97497e0468', 'T_per_block': {1: 66, 2: 66, 3: 60, 4: 58, 5: 53, 6: 25}, 'T_per_class': {1: 175, 2: 153}, 'T_artifacts': 112, 'eeg_std_uv': 3.880470037460327, 'E_md5': '932fcf859fe575950de1a753b03c0df6', 'E_n': 230, 'E_artifacts': 90}
+[00:11:41] === B01 protocol_2b sha 53a30bc842ef
+[00:11:58]   vit ep 10/200 train 0.6898 val_nll 0.7215 val_acc 0.482
+[00:12:10]   vit ep 20/200 train 0.6793 val_nll 0.7305 val_acc 0.446
+[00:12:23]   vit ep 30/200 train 0.6793 val_nll 0.7762 val_acc 0.339
+[00:12:35]   vit ep 40/200 train 0.6952 val_nll 0.7667 val_acc 0.321
+[00:12:47]   vit ep 50/200 train 0.6369 val_nll 0.7460 val_acc 0.446
+[00:12:59]   vit ep 60/200 train 0.6738 val_nll 0.7013 val_acc 0.518
+[00:13:12]   vit ep 70/200 train 0.6666 val_nll 0.8116 val_acc 0.357
+[00:13:24]   vit ep 80/200 train 0.6708 val_nll 0.7900 val_acc 0.411
+[00:13:36]   vit ep 90/200 train 0.6582 val_nll 0.7824 val_acc 0.411
+[00:13:49]   vit ep 100/200 train 0.5835 val_nll 0.7950 val_acc 0.464
+[00:14:01]   vit ep 110/200 train 0.5919 val_nll 0.7846 val_acc 0.482
+[00:14:13]   vit ep 120/200 train 0.6182 val_nll 0.8487 val_acc 0.482
+[00:14:25]   vit ep 130/200 train 0.6576 val_nll 0.8449 val_acc 0.446
+[00:14:37]   vit ep 140/200 train 0.5859 val_nll 0.8535 val_acc 0.500
+[00:14:50]   vit ep 150/200 train 0.5248 val_nll 0.8601 val_acc 0.518
+[00:15:02]   vit ep 160/200 train 0.5942 val_nll 0.8118 val_acc 0.500
+[00:15:14]   vit ep 170/200 train 0.5940 val_nll 0.8260 val_acc 0.500
+[00:15:27]   vit ep 180/200 train 0.5423 val_nll 0.8274 val_acc 0.518
+[00:15:39]   vit ep 190/200 train 0.5565 val_nll 0.8279 val_acc 0.518
+[00:15:51]   vit ep 200/200 train 0.5694 val_nll 0.8271 val_acc 0.518
+[00:15:51] ViT epoch selection: 61 (nll) (246s)
+[00:18:00] member 1: done (126s), n_A=173 n_B=120 n_C=31, fbcsp-gmm d=8, mibif [7, 8, 10, 11, 13, 14, 16, 17, 19, 22, 24, 26, 27, 29, 30, 33]
+[00:19:53] member 2: done (113s), n_A=174 n_B=119 n_C=31, fbcsp-gmm d=8, mibif [1, 4, 6, 7, 9, 10, 12, 14, 15, 17, 24, 26, 27, 29, 42, 45]
+[00:20:43] member 3: done (50s), n_A=176 n_B=117 n_C=31, fbcsp-gmm d=8, mibif [6, 9, 13, 16, 20, 23, 32, 35, 36, 39, 44, 47, 48, 49, 51, 52]
+[00:21:36] member 4: done (53s), n_A=180 n_B=113 n_C=31, fbcsp-gmm d=8, mibif [1, 4, 6, 7, 9, 10, 12, 14, 15, 17, 24, 25, 27, 28, 31, 34]
+[00:22:44] member 5: done (67s), n_A=176 n_B=117 n_C=31, fbcsp-gmm d=8, mibif [1, 4, 6, 7, 9, 10, 12, 14, 15, 17, 24, 27, 36, 39, 48, 51]
+[00:22:44] === B01 finished
+[00:22:51] === B02 protocol_2b sha 53a30bc842ef
+[00:22:59]   vit ep 10/200 train 0.7178 val_nll 0.7142 val_acc 0.387
+[00:23:06]   vit ep 20/200 train 0.6787 val_nll 0.7009 val_acc 0.613
+[00:23:13]   vit ep 30/200 train 0.6917 val_nll 0.7100 val_acc 0.532
+[00:23:20]   vit ep 40/200 train 0.6766 val_nll 0.7054 val_acc 0.468
+[00:23:26]   vit ep 50/200 train 0.6625 val_nll 0.7179 val_acc 0.500
+[00:23:33]   vit ep 60/200 train 0.7089 val_nll 0.7084 val_acc 0.548
+[00:23:40]   vit ep 70/200 train 0.6702 val_nll 0.6997 val_acc 0.565
+[00:23:50]   vit ep 80/200 train 0.6955 val_nll 0.7113 val_acc 0.532
+[00:24:01]   vit ep 90/200 train 0.6401 val_nll 0.7307 val_acc 0.548
+[00:24:10]   vit ep 100/200 train 0.6755 val_nll 0.7674 val_acc 0.435
+[00:24:17]   vit ep 110/200 train 0.6266 val_nll 0.7199 val_acc 0.597
+[00:24:24]   vit ep 120/200 train 0.6418 val_nll 0.7511 val_acc 0.597
+[00:24:30]   vit ep 130/200 train 0.6351 val_nll 0.7460 val_acc 0.581
+[00:24:36]   vit ep 140/200 train 0.6554 val_nll 0.7807 val_acc 0.484
+[00:24:42]   vit ep 150/200 train 0.6455 val_nll 0.7756 val_acc 0.484
+[00:24:49]   vit ep 160/200 train 0.5978 val_nll 0.7797 val_acc 0.484
+[00:24:55]   vit ep 170/200 train 0.6173 val_nll 0.7969 val_acc 0.484
+[00:25:01]   vit ep 180/200 train 0.6627 val_nll 0.7973 val_acc 0.484
+[00:25:08]   vit ep 190/200 train 0.6134 val_nll 0.7944 val_acc 0.484
+[00:25:14]   vit ep 200/200 train 0.6387 val_nll 0.7935 val_acc 0.484
+[00:25:14] ViT epoch selection: 44 (nll) (142s)
+[00:26:01] member 1: done (46s), n_A=182 n_B=119 n_C=28, fbcsp-gmm d=8, mibif [1, 4, 6, 9, 20, 23, 25, 28, 38, 41, 42, 45, 48, 50, 51, 53]
+[00:26:46] member 2: done (45s), n_A=187 n_B=114 n_C=28, fbcsp-gmm d=8, mibif [0, 3, 6, 7, 8, 9, 10, 11, 20, 23, 26, 29, 48, 49, 51, 52]
+[00:27:30] member 3: done (44s), n_A=181 n_B=120 n_C=28, fbcsp-gmm d=8, mibif [19, 22, 24, 26, 27, 29, 32, 35, 36, 37, 39, 40, 42, 43, 45, 46]
+[00:28:14] member 4: done (44s), n_A=175 n_B=126 n_C=28, fbcsp-gmm d=8, mibif [1, 2, 4, 5, 18, 21, 26, 29, 36, 39, 43, 46, 48, 49, 51, 52]
+[00:28:56] member 5: done (43s), n_A=178 n_B=123 n_C=28, fbcsp-gmm d=8, mibif [5, 6, 9, 12, 15, 18, 19, 21, 22, 23, 24, 25, 26, 27, 28, 29]
+[00:28:56] === B02 finished
+[00:29:03] === B03 protocol_2b sha 53a30bc842ef
+[00:29:10]   vit ep 10/200 train 0.7051 val_nll 0.7206 val_acc 0.472
+[00:29:15]   vit ep 20/200 train 0.7025 val_nll 0.7126 val_acc 0.396
+[00:29:21]   vit ep 30/200 train 0.7207 val_nll 0.6940 val_acc 0.547
+[00:29:27]   vit ep 40/200 train 0.7357 val_nll 0.7081 val_acc 0.491
+[00:29:33]   vit ep 50/200 train 0.7112 val_nll 0.7064 val_acc 0.415
+[00:29:38]   vit ep 60/200 train 0.6488 val_nll 0.7156 val_acc 0.472
+[00:29:44]   vit ep 70/200 train 0.7221 val_nll 0.7034 val_acc 0.453
+[00:29:50]   vit ep 80/200 train 0.6749 val_nll 0.6936 val_acc 0.415
+[00:29:56]   vit ep 90/200 train 0.6754 val_nll 0.6866 val_acc 0.415
+[00:30:02]   vit ep 100/200 train 0.6483 val_nll 0.6948 val_acc 0.396
+[00:30:08]   vit ep 110/200 train 0.6441 val_nll 0.7231 val_acc 0.415
+[00:30:14]   vit ep 120/200 train 0.6265 val_nll 0.7265 val_acc 0.491
+[00:30:20]   vit ep 130/200 train 0.6599 val_nll 0.7354 val_acc 0.547
+[00:30:25]   vit ep 140/200 train 0.6419 val_nll 0.7401 val_acc 0.415
+[00:30:31]   vit ep 150/200 train 0.6031 val_nll 0.7386 val_acc 0.396
+[00:30:37]   vit ep 160/200 train 0.6426 val_nll 0.7487 val_acc 0.434
+[00:30:42]   vit ep 170/200 train 0.6185 val_nll 0.7491 val_acc 0.453
+[00:30:48]   vit ep 180/200 train 0.5987 val_nll 0.7411 val_acc 0.434
+[00:30:54]   vit ep 190/200 train 0.6228 val_nll 0.7438 val_acc 0.415
+[00:31:00]   vit ep 200/200 train 0.6344 val_nll 0.7433 val_acc 0.434
+[00:31:00] ViT epoch selection: 89 (nll) (116s)
+[00:32:32] member 1: done (91s), n_A=163 n_B=107 n_C=26, fbcsp-gmm d=8, mibif [2, 5, 8, 11, 12, 15, 19, 22, 24, 27, 38, 41, 42, 45, 50, 53]
+[00:34:23] member 2: done (112s), n_A=165 n_B=105 n_C=26, fbcsp-gmm d=8, mibif [0, 3, 7, 10, 12, 15, 24, 27, 30, 33, 36, 37, 39, 40, 42, 45]
+[00:35:37] member 3: done (74s), n_A=160 n_B=110 n_C=26, fbcsp-gmm d=8, mibif [2, 5, 7, 8, 10, 11, 13, 16, 19, 20, 22, 23, 24, 27, 36, 39]
+[00:36:48] member 4: done (71s), n_A=160 n_B=110 n_C=26, fbcsp-gmm d=8, mibif [0, 3, 7, 8, 10, 11, 12, 13, 15, 16, 26, 29, 30, 33, 50, 53]
+[00:38:06] member 5: done (78s), n_A=162 n_B=108 n_C=26, fbcsp-gmm d=8, mibif [0, 2, 3, 5, 13, 16, 19, 22, 24, 27, 30, 33, 44, 47, 49, 52]
+[00:38:06] === B03 finished
+[00:38:12] === B05 protocol_2b sha 53a30bc842ef
+[00:38:21]   vit ep 10/200 train 0.7167 val_nll 0.6940 val_acc 0.453
+[00:38:28]   vit ep 20/200 train 0.6849 val_nll 0.6902 val_acc 0.469
+[00:38:36]   vit ep 30/200 train 0.6877 val_nll 0.6740 val_acc 0.609
+[00:38:43]   vit ep 40/200 train 0.6811 val_nll 0.6802 val_acc 0.531
+[00:38:51]   vit ep 50/200 train 0.6852 val_nll 0.7148 val_acc 0.406
+[00:38:58]   vit ep 60/200 train 0.6805 val_nll 0.7084 val_acc 0.422
+[00:39:05]   vit ep 70/200 train 0.6697 val_nll 0.7347 val_acc 0.484
+[00:39:12]   vit ep 80/200 train 0.6838 val_nll 0.7090 val_acc 0.547
+[00:39:20]   vit ep 90/200 train 0.6525 val_nll 0.7181 val_acc 0.500
+[00:39:28]   vit ep 100/200 train 0.6288 val_nll 0.6846 val_acc 0.500
+[00:39:35]   vit ep 110/200 train 0.6946 val_nll 0.6981 val_acc 0.516
+[00:39:42]   vit ep 120/200 train 0.6050 val_nll 0.6708 val_acc 0.609
+[00:39:50]   vit ep 130/200 train 0.6474 val_nll 0.7377 val_acc 0.469
+[00:39:57]   vit ep 140/200 train 0.6572 val_nll 0.6914 val_acc 0.531
+[00:40:05]   vit ep 150/200 train 0.6429 val_nll 0.6917 val_acc 0.516
+[00:40:13]   vit ep 160/200 train 0.6428 val_nll 0.7117 val_acc 0.578
+[00:40:20]   vit ep 170/200 train 0.6444 val_nll 0.6964 val_acc 0.562
+[00:40:27]   vit ep 180/200 train 0.6069 val_nll 0.6987 val_acc 0.531
+[00:40:34]   vit ep 190/200 train 0.5949 val_nll 0.7054 val_acc 0.562
+[00:40:42]   vit ep 200/200 train 0.6451 val_nll 0.7037 val_acc 0.562
+[00:40:42] ViT epoch selection: 85 (nll) (148s)
+[00:42:12] member 1: done (89s), n_A=208 n_B=135 n_C=39, fbcsp-gmm d=8, mibif [12, 15, 24, 25, 27, 28, 30, 31, 33, 34, 36, 37, 38, 39, 40, 41]
+[00:44:04] member 2: done (112s), n_A=199 n_B=144 n_C=39, fbcsp-gmm d=8, mibif [6, 9, 20, 23, 24, 27, 30, 31, 33, 34, 36, 37, 38, 39, 40, 41]
+[00:46:05] member 3: done (121s), n_A=199 n_B=144 n_C=39, fbcsp-gmm d=8, mibif [20, 23, 25, 28, 30, 31, 33, 34, 36, 37, 38, 39, 40, 41, 50, 53]
+[00:48:14] member 4: done (129s), n_A=208 n_B=135 n_C=39, fbcsp-gmm d=8, mibif [13, 16, 19, 22, 24, 27, 30, 31, 32, 33, 34, 35, 36, 38, 39, 41]
+[00:50:22] member 5: done (128s), n_A=215 n_B=128 n_C=39, fbcsp-gmm d=8, mibif [24, 25, 27, 28, 30, 31, 33, 34, 36, 38, 39, 41, 48, 50, 51, 53]
+[00:50:22] === B05 finished
+[00:50:30] === B07 protocol_2b sha 53a30bc842ef
+[00:50:42]   vit ep 10/200 train 0.7107 val_nll 0.6881 val_acc 0.619
+[00:50:52]   vit ep 20/200 train 0.6849 val_nll 0.6740 val_acc 0.603
+[00:51:02]   vit ep 30/200 train 0.7122 val_nll 0.6674 val_acc 0.635
+[00:51:12]   vit ep 40/200 train 0.6925 val_nll 0.6845 val_acc 0.603
+[00:51:23]   vit ep 50/200 train 0.6803 val_nll 0.7403 val_acc 0.524
+[00:51:32]   vit ep 60/200 train 0.6502 val_nll 0.7319 val_acc 0.492
+[00:51:42]   vit ep 70/200 train 0.6696 val_nll 0.6819 val_acc 0.635
+[00:51:52]   vit ep 80/200 train 0.6736 val_nll 0.7160 val_acc 0.587
+[00:52:06]   vit ep 90/200 train 0.6963 val_nll 0.6734 val_acc 0.635
+[00:52:17]   vit ep 100/200 train 0.6751 val_nll 0.7173 val_acc 0.540
+[00:52:27]   vit ep 110/200 train 0.6605 val_nll 0.6605 val_acc 0.619
+[00:52:35]   vit ep 120/200 train 0.6490 val_nll 0.6859 val_acc 0.587
+[00:52:43]   vit ep 130/200 train 0.6292 val_nll 0.7233 val_acc 0.524
+[00:52:50]   vit ep 140/200 train 0.6346 val_nll 0.7278 val_acc 0.571
+[00:52:58]   vit ep 150/200 train 0.6408 val_nll 0.7060 val_acc 0.571
+[00:53:04]   vit ep 160/200 train 0.6512 val_nll 0.7117 val_acc 0.556
+[00:53:11]   vit ep 170/200 train 0.6564 val_nll 0.7133 val_acc 0.556
+[00:53:18]   vit ep 180/200 train 0.6294 val_nll 0.7082 val_acc 0.571
+[00:53:25]   vit ep 190/200 train 0.6462 val_nll 0.7055 val_acc 0.587
+[00:53:31]   vit ep 200/200 train 0.5860 val_nll 0.7058 val_acc 0.571
+[00:53:31] ViT epoch selection: 45 (nll) (179s)
+[00:54:21] member 1: done (49s), n_A=197 n_B=131 n_C=28, fbcsp-gmm d=8, mibif [8, 11, 12, 13, 15, 16, 19, 20, 22, 23, 30, 31, 33, 34, 37, 40]
+[00:55:06] member 2: done (45s), n_A=193 n_B=135 n_C=28, fbcsp-gmm d=8, mibif [6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 24, 25, 27, 28, 30, 33]
+[00:55:52] member 3: done (46s), n_A=194 n_B=134 n_C=28, fbcsp-gmm d=8, mibif [6, 9, 12, 13, 15, 16, 25, 26, 28, 29, 31, 34, 36, 38, 39, 41]
+[00:56:40] member 4: done (48s), n_A=197 n_B=131 n_C=28, fbcsp-gmm d=8, mibif [6, 7, 8, 9, 10, 11, 12, 15, 26, 29, 37, 40, 42, 43, 45, 46]
+[00:57:46] member 5: done (66s), n_A=203 n_B=125 n_C=28, fbcsp-gmm d=8, mibif [6, 8, 9, 11, 12, 14, 15, 17, 18, 21, 30, 33, 42, 45, 48, 51]
+[00:57:46] === B07 finished
+[00:57:54] === B08 protocol_2b sha 53a30bc842ef
+[00:58:05]   vit ep 10/200 train 0.6928 val_nll 0.6582 val_acc 0.642
+[00:58:14]   vit ep 20/200 train 0.6939 val_nll 0.6591 val_acc 0.679
+[00:58:22]   vit ep 30/200 train 0.6763 val_nll 0.6333 val_acc 0.679
+[00:58:31]   vit ep 40/200 train 0.6505 val_nll 0.6924 val_acc 0.547
+[00:58:39]   vit ep 50/200 train 0.6756 val_nll 0.7085 val_acc 0.472
+[00:58:48]   vit ep 60/200 train 0.6793 val_nll 0.6324 val_acc 0.679
+[00:58:56]   vit ep 70/200 train 0.6447 val_nll 0.6821 val_acc 0.585
+[00:59:05]   vit ep 80/200 train 0.6642 val_nll 0.7314 val_acc 0.528
+[00:59:13]   vit ep 90/200 train 0.6326 val_nll 0.6222 val_acc 0.660
+[00:59:27]   vit ep 100/200 train 0.6240 val_nll 0.6339 val_acc 0.660
+[00:59:38]   vit ep 110/200 train 0.6174 val_nll 0.6561 val_acc 0.585
+[00:59:46]   vit ep 120/200 train 0.6129 val_nll 0.7280 val_acc 0.547
+[00:59:55]   vit ep 130/200 train 0.6128 val_nll 0.7144 val_acc 0.509
+[01:00:04]   vit ep 140/200 train 0.5694 val_nll 0.6775 val_acc 0.528
+[01:00:13]   vit ep 150/200 train 0.6371 val_nll 0.6867 val_acc 0.566
+[01:00:21]   vit ep 160/200 train 0.5521 val_nll 0.7020 val_acc 0.528
+[01:00:30]   vit ep 170/200 train 0.6016 val_nll 0.7084 val_acc 0.566
+[01:00:39]   vit ep 180/200 train 0.5765 val_nll 0.6956 val_acc 0.566
+[01:00:47]   vit ep 190/200 train 0.5486 val_nll 0.6949 val_acc 0.566
+[01:00:56]   vit ep 200/200 train 0.5181 val_nll 0.6942 val_acc 0.566
+[01:00:56] ViT epoch selection: 107 (nll) (180s)
+[01:03:09] member 1: done (132s), n_A=171 n_B=132 n_C=25, fbcsp-gmm d=8, mibif [0, 3, 6, 7, 9, 10, 19, 22, 24, 27, 36, 39, 42, 45, 49, 52]
+[01:05:22] member 2: done (133s), n_A=177 n_B=126 n_C=25, fbcsp-gmm d=8, mibif [6, 7, 9, 10, 12, 15, 24, 25, 27, 28, 30, 33, 42, 44, 45, 47]
+[01:07:42] member 3: done (139s), n_A=185 n_B=118 n_C=25, fbcsp-gmm d=8, mibif [1, 4, 6, 7, 9, 10, 20, 23, 31, 34, 37, 38, 40, 41, 42, 45]
+[01:10:01] member 4: done (140s), n_A=192 n_B=111 n_C=25, fbcsp-gmm d=8, mibif [1, 4, 6, 9, 14, 17, 20, 23, 26, 29, 36, 39, 43, 46, 49, 52]
+[01:12:17] member 5: done (136s), n_A=184 n_B=119 n_C=25, fbcsp-gmm d=8, mibif [6, 9, 19, 22, 25, 26, 28, 29, 30, 32, 33, 35, 43, 46, 48, 51]
+[01:12:17] === B08 finished
+BATCH1 DONE
+{'subject': 'B04', 'T_sessions': [120, 140, 160], 'T_md5': 'd282f2499bc7fa15ee8cb0b1418c9bca', 'T_per_block': {1: 74, 2: 72, 3: 68, 4: 74, 5: 75, 6: 36}, 'T_per_class': {1: 201, 2: 198}, 'T_artifacts': 21, 'eeg_std_uv': 3.244807720184326, 'E_md5': '8ec5cf27fa1f2ec332d956f1a710e9f7', 'E_n': 307, 'E_artifacts': 13}
+{'subject': 'B06', 'T_sessions': [120, 120, 160], 'T_md5': '93281a13df3cad39fa313a0fa38a7429', 'T_per_block': {1: 45, 2: 49, 3: 50, 4: 58, 5: 64, 6: 29}, 'T_per_class': {1: 142, 2: 153}, 'T_artifacts': 105, 'eeg_std_uv': 5.134303569793701, 'E_md5': '974b8002306d87c713da465a0b6e0002', 'E_n': 251, 'E_artifacts': 69}
+{'subject': 'B09', 'T_sessions': [120, 120, 160], 'T_md5': 'e777a817659f2b0716cd655c3d99834d', 'T_per_block': {1: 53, 2: 56, 3: 58, 4: 50, 5: 64, 6: 36}, 'T_per_class': {1: 157, 2: 160}, 'T_artifacts': 83, 'eeg_std_uv': 2.6997628211975098, 'E_md5': '70f87e07d9beaae1395776074dac40d2', 'E_n': 245, 'E_artifacts': 75}
+[01:14:38] === B04 protocol_2b sha 53a30bc842ef
+[01:14:48]   vit ep 10/200 train 0.7182 val_nll 0.6958 val_acc 0.507
+[01:14:56]   vit ep 20/200 train 0.7054 val_nll 0.7049 val_acc 0.467
+[01:15:04]   vit ep 30/200 train 0.7233 val_nll 0.7171 val_acc 0.440
+[01:15:12]   vit ep 40/200 train 0.6938 val_nll 0.6987 val_acc 0.467
+[01:15:19]   vit ep 50/200 train 0.6870 val_nll 0.6970 val_acc 0.533
+[01:15:27]   vit ep 60/200 train 0.6946 val_nll 0.6920 val_acc 0.507
+[01:15:34]   vit ep 70/200 train 0.6779 val_nll 0.6927 val_acc 0.520
+[01:15:42]   vit ep 80/200 train 0.6797 val_nll 0.7058 val_acc 0.533
+[01:15:49]   vit ep 90/200 train 0.6818 val_nll 0.7055 val_acc 0.467
+[01:15:57]   vit ep 100/200 train 0.6855 val_nll 0.6864 val_acc 0.533
+[01:16:05]   vit ep 110/200 train 0.6683 val_nll 0.6893 val_acc 0.573
+[01:16:12]   vit ep 120/200 train 0.6809 val_nll 0.6982 val_acc 0.533
+[01:16:20]   vit ep 130/200 train 0.6835 val_nll 0.6968 val_acc 0.507
+[01:16:27]   vit ep 140/200 train 0.6868 val_nll 0.6890 val_acc 0.547
+[01:16:35]   vit ep 150/200 train 0.6708 val_nll 0.6954 val_acc 0.453
+[01:16:42]   vit ep 160/200 train 0.6295 val_nll 0.6934 val_acc 0.533
+[01:16:49]   vit ep 170/200 train 0.6537 val_nll 0.6936 val_acc 0.507
+[01:16:57]   vit ep 180/200 train 0.6575 val_nll 0.6972 val_acc 0.493
+[01:17:05]   vit ep 190/200 train 0.6244 val_nll 0.6956 val_acc 0.480
+[01:17:13]   vit ep 200/200 train 0.6745 val_nll 0.6958 val_acc 0.480
+[01:17:13] ViT epoch selection: 100 (nll) (153s)
+[01:19:01] member 1: done (107s), n_A=217 n_B=146 n_C=36, fbcsp-gmm d=8, mibif [0, 1, 3, 4, 6, 7, 9, 10, 18, 21, 24, 25, 27, 28, 43, 46]
+[01:20:50] member 2: done (109s), n_A=223 n_B=140 n_C=36, fbcsp-gmm d=8, mibif [0, 3, 6, 7, 9, 10, 14, 17, 18, 21, 24, 25, 26, 27, 28, 29]
+[01:23:08] member 3: done (138s), n_A=221 n_B=142 n_C=36, fbcsp-gmm d=8, mibif [1, 4, 6, 7, 8, 9, 10, 11, 13, 16, 18, 19, 21, 22, 24, 27]
+[01:24:40] member 4: done (92s), n_A=214 n_B=149 n_C=36, fbcsp-gmm d=8, mibif [1, 4, 6, 7, 8, 9, 10, 11, 24, 25, 27, 28, 36, 39, 42, 45]
+[01:26:09] member 5: done (89s), n_A=214 n_B=149 n_C=36, fbcsp-gmm d=8, mibif [6, 7, 8, 9, 10, 11, 14, 17, 24, 25, 26, 27, 28, 29, 50, 53]
+[01:26:09] === B04 finished
+[01:26:14] === B06 protocol_2b sha 53a30bc842ef
+[01:26:20]   vit ep 10/200 train 0.7004 val_nll 0.7342 val_acc 0.531
+[01:26:25]   vit ep 20/200 train 0.6746 val_nll 0.7486 val_acc 0.484
+[01:26:30]   vit ep 30/200 train 0.6737 val_nll 0.7297 val_acc 0.578
+[01:26:35]   vit ep 40/200 train 0.6885 val_nll 0.7808 val_acc 0.547
+[01:26:40]   vit ep 50/200 train 0.6707 val_nll 0.7690 val_acc 0.547
+[01:26:45]   vit ep 60/200 train 0.6609 val_nll 0.7231 val_acc 0.547
+[01:26:49]   vit ep 70/200 train 0.6528 val_nll 0.7817 val_acc 0.594
+[01:26:54]   vit ep 80/200 train 0.6223 val_nll 0.7764 val_acc 0.578
+[01:26:59]   vit ep 90/200 train 0.5825 val_nll 0.7684 val_acc 0.562
+[01:27:04]   vit ep 100/200 train 0.5586 val_nll 0.7640 val_acc 0.578
+[01:27:09]   vit ep 110/200 train 0.5972 val_nll 0.7591 val_acc 0.547
+[01:27:14]   vit ep 120/200 train 0.5992 val_nll 0.7482 val_acc 0.578
+[01:27:18]   vit ep 130/200 train 0.5701 val_nll 0.7652 val_acc 0.625
+[01:27:23]   vit ep 140/200 train 0.5929 val_nll 0.8201 val_acc 0.594
+[01:27:29]   vit ep 150/200 train 0.5316 val_nll 0.7777 val_acc 0.609
+[01:27:34]   vit ep 160/200 train 0.5904 val_nll 0.7756 val_acc 0.625
+[01:27:39]   vit ep 170/200 train 0.5868 val_nll 0.7790 val_acc 0.625
+[01:27:43]   vit ep 180/200 train 0.5553 val_nll 0.7797 val_acc 0.609
+[01:27:48]   vit ep 190/200 train 0.5344 val_nll 0.7786 val_acc 0.641
+[01:27:53]   vit ep 200/200 train 0.5818 val_nll 0.7786 val_acc 0.641
+[01:27:53] ViT epoch selection: 33 (nll) (98s)
+[01:28:23] member 1: done (28s), n_A=172 n_B=94 n_C=29, fbcsp-gmm d=8, mibif [6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 26, 29, 43, 46]
+[01:28:49] member 2: done (27s), n_A=167 n_B=99 n_C=29, fbcsp-gmm d=8, mibif [0, 2, 3, 5, 6, 7, 9, 10, 12, 13, 15, 16, 26, 29, 38, 41]
+[01:29:18] member 3: done (28s), n_A=158 n_B=108 n_C=29, fbcsp-gmm d=8, mibif [1, 4, 6, 9, 12, 13, 15, 16, 20, 23, 24, 27, 37, 40, 48, 51]
+[01:29:44] member 4: done (26s), n_A=144 n_B=122 n_C=29, fbcsp-gmm d=8, mibif [2, 5, 6, 8, 9, 11, 12, 13, 15, 16, 30, 33, 42, 45, 49, 52]
+[01:30:13] member 5: done (30s), n_A=157 n_B=109 n_C=29, fbcsp-gmm d=8, mibif [6, 9, 12, 13, 15, 16, 20, 23, 25, 28, 30, 33, 38, 41, 49, 52]
+[01:30:13] === B06 finished
+[01:30:19] === B09 protocol_2b sha 53a30bc842ef
+[01:30:25]   vit ep 10/200 train 0.6942 val_nll 0.6755 val_acc 0.547
+[01:30:30]   vit ep 20/200 train 0.6771 val_nll 0.6916 val_acc 0.547
+[01:30:35]   vit ep 30/200 train 0.6968 val_nll 0.6872 val_acc 0.531
+[01:30:40]   vit ep 40/200 train 0.7034 val_nll 0.6827 val_acc 0.562
+[01:30:45]   vit ep 50/200 train 0.6852 val_nll 0.6878 val_acc 0.484
+[01:30:50]   vit ep 60/200 train 0.6620 val_nll 0.7357 val_acc 0.500
+[01:30:55]   vit ep 70/200 train 0.6797 val_nll 0.7264 val_acc 0.516
+[01:31:00]   vit ep 80/200 train 0.6634 val_nll 0.6965 val_acc 0.531
+[01:31:05]   vit ep 90/200 train 0.6612 val_nll 0.6963 val_acc 0.531
+[01:31:10]   vit ep 100/200 train 0.6540 val_nll 0.7051 val_acc 0.547
+[01:31:14]   vit ep 110/200 train 0.6509 val_nll 0.6839 val_acc 0.594
+[01:31:19]   vit ep 120/200 train 0.6434 val_nll 0.6909 val_acc 0.578
+[01:31:24]   vit ep 130/200 train 0.6700 val_nll 0.6787 val_acc 0.609
+[01:31:29]   vit ep 140/200 train 0.6517 val_nll 0.6883 val_acc 0.547
+[01:31:34]   vit ep 150/200 train 0.6723 val_nll 0.6800 val_acc 0.609
+[01:31:39]   vit ep 160/200 train 0.6604 val_nll 0.6800 val_acc 0.562
+[01:31:44]   vit ep 170/200 train 0.6477 val_nll 0.6858 val_acc 0.578
+[01:31:49]   vit ep 180/200 train 0.6811 val_nll 0.6845 val_acc 0.594
+[01:31:54]   vit ep 190/200 train 0.6093 val_nll 0.6886 val_acc 0.594
+[01:31:59]   vit ep 200/200 train 0.6593 val_nll 0.6887 val_acc 0.594
+[01:31:59] ViT epoch selection: 10 (nll) (99s)
+[01:32:13] member 1: done (13s), n_A=172 n_B=109 n_C=36, fbcsp-gmm d=8, mibif [6, 7, 9, 10, 18, 21, 24, 25, 27, 28, 30, 32, 33, 35, 48, 51]
+[01:32:27] member 2: done (14s), n_A=167 n_B=114 n_C=36, fbcsp-gmm d=8, mibif [6, 7, 9, 10, 19, 22, 25, 28, 30, 31, 33, 34, 38, 41, 48, 51]
+[01:32:40] member 3: done (13s), n_A=173 n_B=108 n_C=36, fbcsp-gmm d=8, mibif [12, 15, 19, 22, 24, 27, 30, 32, 33, 35, 38, 41, 44, 47, 49, 52]
+[01:32:53] member 4: done (13s), n_A=167 n_B=114 n_C=36, fbcsp-gmm d=8, mibif [6, 9, 13, 16, 18, 19, 21, 22, 32, 35, 37, 40, 48, 50, 51, 53]
+[01:33:06] member 5: done (13s), n_A=164 n_B=117 n_C=36, fbcsp-gmm d=8, mibif [1, 4, 6, 8, 9, 11, 13, 16, 19, 22, 25, 26, 28, 29, 38, 41]
+[01:33:06] === B09 finished
+BATCH2 DONE
+B01 {'n_E': 228, 'acc': 0.6491, 'kappa': 0.3039, 'T': 1.908, 'T_flag': 'ok', 'aurc_oracle': 0.0711, 'aurc_fbcsp_gmm': 0.2477, 'auroc_fbcsp_gmm': 0.6318, 'aurc_msp': 0.2669, 'auroc_msp': 0.6184, 'aurc_ts_msp': 0.2669, 'auroc_ts_msp': 0.6184, 'aurc_vit_gmm': 0.3491, 'auroc_vit_gmm': 0.5477, 'thr0.8_fbcsp_gmm_coverage': 0.8772, 'thr0.8_fbcsp_gmm_acc': 0.665, 'thr0.8_msp_coverage': 0.7544, 'thr0.8_msp_acc': 0.6802}
+B02 {'n_E': 245, 'acc': 0.5959, 'kappa': 0.1917, 'T': 3.7644, 'T_flag': 'ok', 'aurc_oracle': 0.0964, 'aurc_fbcsp_gmm': 0.3435, 'auroc_fbcsp_gmm': 0.574, 'aurc_msp': 0.3312, 'auroc_msp': 0.5565, 'aurc_ts_msp': 0.3312, 'auroc_ts_msp': 0.5565, 'aurc_vit_gmm': 0.4151, 'auroc_vit_gmm': 0.4897, 'thr0.8_fbcsp_gmm_coverage': 0.8653, 'thr0.8_fbcsp_gmm_acc': 0.6321, 'thr0.8_msp_coverage': 0.8408, 'thr0.8_msp_acc': 0.5971}
+B03 {'n_E': 230, 'acc': 0.4609, 'kappa': -0.072, 'T': 3.9999, 'T_flag': 'boundary', 'aurc_oracle': 0.1833, 'aurc_fbcsp_gmm': 0.4316, 'auroc_fbcsp_gmm': 0.6013, 'aurc_msp': 0.5861, 'auroc_msp': 0.4502, 'aurc_ts_msp': 0.5861, 'auroc_ts_msp': 0.4502, 'aurc_vit_gmm': 0.5025, 'auroc_vit_gmm': 0.5265, 'thr0.8_fbcsp_gmm_coverage': 0.687, 'thr0.8_fbcsp_gmm_acc': 0.5063, 'thr0.8_msp_coverage': 0.7304, 'thr0.8_msp_acc': 0.4702}
+B04 {'n_E': 307, 'acc': 0.9642, 'kappa': 0.9283, 'T': 0.5166, 'T_flag': 'ok', 'aurc_oracle': 0.0007, 'aurc_fbcsp_gmm': 0.0024, 'auroc_fbcsp_gmm': 0.9564, 'aurc_msp': 0.0025, 'auroc_msp': 0.9521, 'aurc_ts_msp': 0.0025, 'auroc_ts_msp': 0.9521, 'aurc_vit_gmm': 0.0605, 'auroc_vit_gmm': 0.5083, 'thr0.8_fbcsp_gmm_coverage': 0.7329, 'thr0.8_fbcsp_gmm_acc': 1.0, 'thr0.8_msp_coverage': 0.7655, 'thr0.8_msp_acc': 1.0}
+B05 {'n_E': 273, 'acc': 0.8864, 'kappa': 0.7731, 'T': 0.5125, 'T_flag': 'ok', 'aurc_oracle': 0.0069, 'aurc_fbcsp_gmm': 0.0537, 'auroc_fbcsp_gmm': 0.7433, 'aurc_msp': 0.0527, 'auroc_msp': 0.7359, 'aurc_ts_msp': 0.0527, 'auroc_ts_msp': 0.7359, 'aurc_vit_gmm': 0.1259, 'auroc_vit_gmm': 0.4148, 'thr0.8_fbcsp_gmm_coverage': 0.8059, 'thr0.8_fbcsp_gmm_acc': 0.9318, 'thr0.8_msp_coverage': 0.7656, 'thr0.8_msp_acc': 0.9282}
+B06 {'n_E': 251, 'acc': 0.7251, 'kappa': 0.4451, 'T': 1.1122, 'T_flag': 'ok', 'aurc_oracle': 0.0424, 'aurc_fbcsp_gmm': 0.1377, 'auroc_fbcsp_gmm': 0.753, 'aurc_msp': 0.1617, 'auroc_msp': 0.6918, 'aurc_ts_msp': 0.1617, 'auroc_ts_msp': 0.6918, 'aurc_vit_gmm': 0.2693, 'auroc_vit_gmm': 0.5014, 'thr0.8_fbcsp_gmm_coverage': 0.8645, 'thr0.8_fbcsp_gmm_acc': 0.788, 'thr0.8_msp_coverage': 0.8247, 'thr0.8_msp_acc': 0.7681}
+B07 {'n_E': 232, 'acc': 0.7716, 'kappa': 0.5433, 'T': 0.9961, 'T_flag': 'ok', 'aurc_oracle': 0.0288, 'aurc_fbcsp_gmm': 0.1123, 'auroc_fbcsp_gmm': 0.7415, 'aurc_msp': 0.1441, 'auroc_msp': 0.6668, 'aurc_ts_msp': 0.1441, 'auroc_ts_msp': 0.6668, 'aurc_vit_gmm': 0.2438, 'auroc_vit_gmm': 0.465, 'thr0.8_fbcsp_gmm_coverage': 0.7974, 'thr0.8_fbcsp_gmm_acc': 0.8108, 'thr0.8_msp_coverage': 0.8147, 'thr0.8_msp_acc': 0.8148}
+B08 {'n_E': 230, 'acc': 0.8435, 'kappa': 0.6888, 'T': 0.4324, 'T_flag': 'ok', 'aurc_oracle': 0.0133, 'aurc_fbcsp_gmm': 0.0559, 'auroc_fbcsp_gmm': 0.8077, 'aurc_msp': 0.0499, 'auroc_msp': 0.8001, 'aurc_ts_msp': 0.0499, 'auroc_ts_msp': 0.8001, 'aurc_vit_gmm': 0.2135, 'auroc_vit_gmm': 0.3846, 'thr0.8_fbcsp_gmm_coverage': 0.9, 'thr0.8_fbcsp_gmm_acc': 0.8841, 'thr0.8_msp_coverage': 0.8565, 'thr0.8_msp_acc': 0.8883}
+B09 {'n_E': 245, 'acc': 0.7102, 'kappa': 0.4223, 'T': 0.7656, 'T_flag': 'ok', 'aurc_oracle': 0.0474, 'aurc_fbcsp_gmm': 0.1271, 'auroc_fbcsp_gmm': 0.7836, 'aurc_msp': 0.1772, 'auroc_msp': 0.6621, 'aurc_ts_msp': 0.1772, 'auroc_ts_msp': 0.6621, 'aurc_vit_gmm': 0.2804, 'auroc_vit_gmm': 0.513, 'thr0.8_fbcsp_gmm_coverage': 0.7265, 'thr0.8_fbcsp_gmm_acc': 0.8258, 'thr0.8_msp_coverage': 0.7796, 'thr0.8_msp_acc': 0.7487}
+
+PRIMARY: mean d = -0.0290, 95% CI [-0.0649, -0.0035], W+ = 9.0, one-sided p = 0.0645, r = -0.60, validated = False

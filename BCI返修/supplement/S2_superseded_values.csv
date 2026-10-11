@@ -1,0 +1,11 @@
+quantity,original_manuscript,origin,revision
+Selective result at tau = 0.80 (accepted accuracy / kappa),0.676 / 0.559,"Result file of evaluate_reject.py: 0.691 / 0.587, computed on Concat+LR MSP, not GMM",Replaced by run-6 thresholds (Table 5)
+Coverage at tau = 0.80,0.660 (1563/2368),"Concat+LR MSP, pooled, no validation split",Replaced (realised coverage reported per score)
+"Wilcoxon p, Concat+LR vs ViT / GMM",0.0039 / 0.0020,"One-sided, not stated","All tests two-sided (except the single 2b test, pre-specified one-sided)"
+"Wilcoxon p, Concat+LR vs FBCSP",0.3750,Not reproducible from Table 4 (two-sided exact 0.496),Recomputed under new protocol
+Friedman chi2,"24.36, p = 2.1e-5","Not reproducible from Table 4 (21.53, p = 8.2e-5)",Not used
+GMM kappa,0.1903 / 0.2200 / 0.1910,Different configurations (no reduction / PCA32 sweep / standalone),Single frozen configuration
+ViT kappa,0.2538 / 0.2592,Different runs,Single frozen run
+ECE / MCE,0.226 / 0.305,"Concat+LR MSP, 10 bins (text said GMM, 8 bins)","8 equal-width bins, raw and temperature-scaled (Section 3.3)"
+SDs,ddof = 0,Population SD,Sample SD (ddof = 1)
+STFT input units,volts,log1p ineffective at 1e-7,microvolts

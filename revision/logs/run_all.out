@@ -1,0 +1,764 @@
+[10:03:32] === A01 protocol bspc-r1-v1 sha b041f3203ed9 pilot=False
+[10:05:33] member 1: representation trained (121s)
+[10:06:03] member 1: done (151s), n_A=138 n_B=90 n_C=45
+[10:08:13] member 2: representation trained (130s)
+[10:08:40] member 2: done (158s), n_A=139 n_B=89 n_C=45
+[10:10:41] member 3: representation trained (121s)
+[10:11:17] member 3: done (156s), n_A=136 n_B=92 n_C=45
+[10:13:35] member 4: representation trained (139s)
+[10:14:02] member 4: done (166s), n_A=135 n_B=93 n_C=45
+[10:16:09] member 5: representation trained (127s)
+[10:16:42] member 5: done (159s), n_A=136 n_B=92 n_C=45
+[10:16:42] === A01 finished
+[10:16:48] === A02 protocol bspc-r1-v1 sha fa8ca75d17be pilot=False
+[10:17:23]   vit ep 10/200 train 1.3881 val_nll 1.3574 val_acc 0.304
+[10:17:48]   vit ep 20/200 train 1.3088 val_nll 1.3210 val_acc 0.326
+[10:18:12]   vit ep 30/200 train 1.2022 val_nll 1.3195 val_acc 0.348
+[10:18:35]   vit ep 40/200 train 1.2597 val_nll 1.3243 val_acc 0.283
+[10:19:00]   vit ep 50/200 train 1.2864 val_nll 1.3047 val_acc 0.326
+[10:19:26]   vit ep 60/200 train 1.2153 val_nll 1.3166 val_acc 0.326
+[10:19:49]   vit ep 70/200 train 1.2484 val_nll 1.2605 val_acc 0.283
+[10:20:12]   vit ep 80/200 train 1.2347 val_nll 1.2898 val_acc 0.283
+[10:20:36]   vit ep 90/200 train 1.2518 val_nll 1.2832 val_acc 0.348
+[10:21:01]   vit ep 100/200 train 1.1341 val_nll 1.3007 val_acc 0.304
+[10:21:24]   vit ep 110/200 train 1.1461 val_nll 1.2889 val_acc 0.391
+[10:21:49]   vit ep 120/200 train 1.1914 val_nll 1.3029 val_acc 0.370
+[10:22:12]   vit ep 130/200 train 1.1978 val_nll 1.3132 val_acc 0.370
+[10:22:35]   vit ep 140/200 train 1.1559 val_nll 1.3706 val_acc 0.283
+[10:22:59]   vit ep 150/200 train 1.1543 val_nll 1.3385 val_acc 0.304
+[10:23:22]   vit ep 160/200 train 1.1452 val_nll 1.3273 val_acc 0.326
+[10:23:47]   vit ep 170/200 train 1.0931 val_nll 1.3316 val_acc 0.304
+[10:24:10]   vit ep 180/200 train 1.1559 val_nll 1.3490 val_acc 0.283
+[10:24:34]   vit ep 190/200 train 1.0741 val_nll 1.3395 val_acc 0.304
+[10:24:58]   vit ep 200/200 train 1.1697 val_nll 1.3382 val_acc 0.304
+[10:24:58] ViT epoch selection: 71 (482s)
+[10:25:01]   eegnet ep 10/300 train 1.3378 val_nll 1.3979 val_acc 0.261
+[10:25:04]   eegnet ep 20/300 train 1.2249 val_nll 1.4022 val_acc 0.348
+[10:25:07]   eegnet ep 30/300 train 1.0592 val_nll 1.3958 val_acc 0.283
+[10:25:10]   eegnet ep 40/300 train 0.8984 val_nll 1.4053 val_acc 0.304
+[10:25:13]   eegnet ep 50/300 train 0.7857 val_nll 1.4252 val_acc 0.261
+[10:25:15]   eegnet ep 60/300 train 0.6547 val_nll 1.4707 val_acc 0.261
+[10:25:18]   eegnet ep 70/300 train 0.5653 val_nll 1.4914 val_acc 0.348
+[10:25:20]   eegnet ep 80/300 train 0.5299 val_nll 1.5378 val_acc 0.304
+[10:25:23]   eegnet ep 90/300 train 0.4232 val_nll 1.5272 val_acc 0.326
+[10:25:26]   eegnet ep 100/300 train 0.3552 val_nll 1.5180 val_acc 0.370
+[10:25:28]   eegnet ep 110/300 train 0.2560 val_nll 1.4742 val_acc 0.457
+[10:25:31]   eegnet ep 120/300 train 0.2055 val_nll 1.4986 val_acc 0.435
+[10:25:34]   eegnet ep 130/300 train 0.1694 val_nll 1.5524 val_acc 0.413
+[10:25:36]   eegnet ep 140/300 train 0.2341 val_nll 1.5720 val_acc 0.435
+[10:25:39]   eegnet ep 150/300 train 0.1724 val_nll 1.6491 val_acc 0.478
+[10:25:41]   eegnet ep 160/300 train 0.1702 val_nll 1.6260 val_acc 0.457
+[10:25:44]   eegnet ep 170/300 train 0.1699 val_nll 1.6847 val_acc 0.413
+[10:25:47]   eegnet ep 180/300 train 0.1201 val_nll 1.7284 val_acc 0.478
+[10:25:49]   eegnet ep 190/300 train 0.1044 val_nll 1.7621 val_acc 0.435
+[10:25:52]   eegnet ep 200/300 train 0.0990 val_nll 1.7666 val_acc 0.435
+[10:25:54]   eegnet ep 210/300 train 0.0871 val_nll 1.8001 val_acc 0.435
+[10:25:57]   eegnet ep 220/300 train 0.1016 val_nll 1.8151 val_acc 0.457
+[10:26:00]   eegnet ep 230/300 train 0.0869 val_nll 1.7642 val_acc 0.478
+[10:26:02]   eegnet ep 240/300 train 0.0750 val_nll 1.7930 val_acc 0.457
+[10:26:05]   eegnet ep 250/300 train 0.0349 val_nll 1.8725 val_acc 0.457
+[10:26:08]   eegnet ep 260/300 train 0.0512 val_nll 1.9742 val_acc 0.457
+[10:26:10]   eegnet ep 270/300 train 0.0693 val_nll 1.9938 val_acc 0.457
+[10:26:13]   eegnet ep 280/300 train 0.0392 val_nll 1.9745 val_acc 0.478
+[10:26:16]   eegnet ep 290/300 train 0.0389 val_nll 1.9821 val_acc 0.435
+[10:26:18]   eegnet ep 300/300 train 0.0550 val_nll 2.0424 val_acc 0.435
+[10:26:18] EEGNet epoch selection: 1 (80s)
+FAILED train A02
+[10:30:42] === A03 protocol bspc-r1-v1 sha fa8ca75d17be pilot=False
+[10:31:14]   vit ep 10/200 train 1.2631 val_nll 1.2828 val_acc 0.304
+[10:31:38]   vit ep 20/200 train 1.2068 val_nll 1.3176 val_acc 0.348
+[10:32:02]   vit ep 30/200 train 1.1759 val_nll 1.3693 val_acc 0.391
+[10:32:26]   vit ep 40/200 train 1.1261 val_nll 1.3132 val_acc 0.326
+[10:32:50]   vit ep 50/200 train 1.1749 val_nll 1.2727 val_acc 0.304
+[10:33:14]   vit ep 60/200 train 1.1741 val_nll 1.3172 val_acc 0.326
+[10:33:39]   vit ep 70/200 train 1.0984 val_nll 1.2063 val_acc 0.370
+[10:34:02]   vit ep 80/200 train 1.1345 val_nll 1.2519 val_acc 0.435
+[10:34:27]   vit ep 90/200 train 1.1632 val_nll 1.3758 val_acc 0.478
+[10:34:50]   vit ep 100/200 train 1.1493 val_nll 1.3468 val_acc 0.391
+[10:35:13]   vit ep 110/200 train 1.0584 val_nll 1.3198 val_acc 0.413
+=== restart after amendment 1 Sun Oct  4 10:36:11     2026
+[10:36:16] === A01 protocol bspc-r1-v1 sha 49cdf03c68bf pilot=False
+[10:36:16] epochs (amendment 1): vit 18 (nll, v1 18), eegnet 128 (nll, v1 128)
+[10:38:02] member 1: representation trained (106s)
+[10:38:28] member 1: done (132s), n_A=138 n_B=90 n_C=45
+[10:40:32] member 2: representation trained (124s)
+[10:41:04] member 2: done (156s), n_A=139 n_B=89 n_C=45
+[10:43:05] member 3: representation trained (121s)
+[10:43:31] member 3: done (147s), n_A=136 n_B=92 n_C=45
+[10:45:30] member 4: representation trained (118s)
+[10:45:56] member 4: done (145s), n_A=135 n_B=93 n_C=45
+[10:47:55] member 5: representation trained (119s)
+[10:48:22] member 5: done (146s), n_A=136 n_B=92 n_C=45
+[10:48:22] === A01 finished
+[10:48:28] === A02 protocol bspc-r1-v1 sha 49cdf03c68bf pilot=False
+[10:48:28] epochs (amendment 1): vit 71 (nll, v1 71), eegnet 275 (acc_fallback, v1 1)
+[10:54:16] member 1: representation trained (348s)
+[10:54:47] member 1: done (379s), n_A=136 n_B=94 n_C=40
+[11:01:16] member 2: representation trained (388s)
+[11:01:42] member 2: done (415s), n_A=139 n_B=91 n_C=40
+[11:09:31] member 3: representation trained (469s)
+[11:10:16] member 3: done (514s), n_A=140 n_B=90 n_C=40
+[11:16:31] member 4: representation trained (374s)
+[11:16:57] member 4: done (401s), n_A=139 n_B=91 n_C=40
+[11:23:30] member 5: representation trained (392s)
+[11:23:53] member 5: done (415s), n_A=136 n_B=94 n_C=40
+[11:23:53] === A02 finished
+[11:23:58] === A03 protocol bspc-r1-v1 sha 49cdf03c68bf pilot=False
+[11:24:22]   vit ep 10/200 train 1.2631 val_nll 1.2828 val_acc 0.304
+[11:24:47]   vit ep 20/200 train 1.2068 val_nll 1.3176 val_acc 0.348
+[11:25:14]   vit ep 30/200 train 1.1759 val_nll 1.3693 val_acc 0.391
+[11:25:40]   vit ep 40/200 train 1.1261 val_nll 1.3132 val_acc 0.326
+[11:26:05]   vit ep 50/200 train 1.1749 val_nll 1.2727 val_acc 0.304
+[11:26:32]   vit ep 60/200 train 1.1741 val_nll 1.3172 val_acc 0.326
+[11:26:57]   vit ep 70/200 train 1.0984 val_nll 1.2063 val_acc 0.370
+[11:27:23]   vit ep 80/200 train 1.1345 val_nll 1.2519 val_acc 0.435
+[11:27:48]   vit ep 90/200 train 1.1632 val_nll 1.3758 val_acc 0.478
+[11:28:15]   vit ep 100/200 train 1.1493 val_nll 1.3468 val_acc 0.391
+[11:28:40]   vit ep 110/200 train 1.0584 val_nll 1.3198 val_acc 0.413
+[11:29:06]   vit ep 120/200 train 1.1531 val_nll 1.3158 val_acc 0.457
+[11:29:34]   vit ep 130/200 train 1.0504 val_nll 1.3225 val_acc 0.457
+[11:29:58]   vit ep 140/200 train 1.0604 val_nll 1.3125 val_acc 0.457
+[11:30:22]   vit ep 150/200 train 1.0653 val_nll 1.3453 val_acc 0.413
+[11:30:43]   vit ep 160/200 train 0.9861 val_nll 1.2960 val_acc 0.457
+[11:31:04]   vit ep 170/200 train 1.1282 val_nll 1.3020 val_acc 0.478
+[11:31:26]   vit ep 180/200 train 1.0610 val_nll 1.3088 val_acc 0.457
+[11:31:48]   vit ep 190/200 train 1.0404 val_nll 1.3074 val_acc 0.478
+[11:32:10]   vit ep 200/200 train 1.0555 val_nll 1.3071 val_acc 0.457
+[11:32:10] ViT epoch selection: 70 (493s)
+[11:32:13]   eegnet ep 10/300 train 1.2631 val_nll 1.3575 val_acc 0.326
+[11:32:16]   eegnet ep 20/300 train 1.1184 val_nll 1.3428 val_acc 0.326
+[11:32:18]   eegnet ep 30/300 train 0.9175 val_nll 1.2849 val_acc 0.413
+[11:32:21]   eegnet ep 40/300 train 0.7795 val_nll 1.2181 val_acc 0.457
+[11:32:24]   eegnet ep 50/300 train 0.6413 val_nll 1.1834 val_acc 0.522
+[11:32:26]   eegnet ep 60/300 train 0.5236 val_nll 1.1307 val_acc 0.565
+[11:32:29]   eegnet ep 70/300 train 0.4445 val_nll 1.0992 val_acc 0.565
+[11:32:31]   eegnet ep 80/300 train 0.3574 val_nll 1.0853 val_acc 0.543
+[11:32:34]   eegnet ep 90/300 train 0.2524 val_nll 1.1143 val_acc 0.543
+[11:32:36]   eegnet ep 100/300 train 0.2679 val_nll 1.1008 val_acc 0.543
+[11:32:39]   eegnet ep 110/300 train 0.2370 val_nll 1.1464 val_acc 0.565
+[11:32:41]   eegnet ep 120/300 train 0.1689 val_nll 1.1160 val_acc 0.522
+[11:32:43]   eegnet ep 130/300 train 0.1434 val_nll 1.1795 val_acc 0.565
+[11:32:46]   eegnet ep 140/300 train 0.2095 val_nll 1.1805 val_acc 0.522
+[11:32:48]   eegnet ep 150/300 train 0.1221 val_nll 1.1803 val_acc 0.565
+[11:32:51]   eegnet ep 160/300 train 0.1374 val_nll 1.2260 val_acc 0.543
+[11:32:53]   eegnet ep 170/300 train 0.1234 val_nll 1.1854 val_acc 0.587
+[11:32:56]   eegnet ep 180/300 train 0.1168 val_nll 1.2328 val_acc 0.522
+[11:32:58]   eegnet ep 190/300 train 0.0955 val_nll 1.2877 val_acc 0.565
+[11:33:00]   eegnet ep 200/300 train 0.0983 val_nll 1.2527 val_acc 0.543
+[11:33:03]   eegnet ep 210/300 train 0.0869 val_nll 1.2764 val_acc 0.522
+[11:33:06]   eegnet ep 220/300 train 0.1128 val_nll 1.2384 val_acc 0.522
+[11:33:09]   eegnet ep 230/300 train 0.0964 val_nll 1.2495 val_acc 0.587
+[11:33:12]   eegnet ep 240/300 train 0.0662 val_nll 1.2774 val_acc 0.565
+[11:33:16]   eegnet ep 250/300 train 0.0584 val_nll 1.2198 val_acc 0.587
+[11:33:19]   eegnet ep 260/300 train 0.1114 val_nll 1.2299 val_acc 0.500
+[11:33:21]   eegnet ep 270/300 train 0.0964 val_nll 1.1605 val_acc 0.565
+[11:33:24]   eegnet ep 280/300 train 0.1078 val_nll 1.2189 val_acc 0.543
+[11:33:27]   eegnet ep 290/300 train 0.0570 val_nll 1.1753 val_acc 0.565
+[11:33:29]   eegnet ep 300/300 train 0.0504 val_nll 1.2339 val_acc 0.522
+[11:33:29] EEGNet epoch selection: 78 (79s)
+[11:33:29] epochs (amendment 1): vit 70 (nll, v1 70), eegnet 78 (nll, v1 78)
+[11:37:59] member 1: representation trained (260s)
+[11:38:31] member 1: done (293s), n_A=134 n_B=89 n_C=47
+[11:42:51] member 2: representation trained (260s)
+[11:43:16] member 2: done (285s), n_A=132 n_B=91 n_C=47
+[11:46:49] member 3: representation trained (213s)
+[11:47:14] member 3: done (238s), n_A=135 n_B=88 n_C=47
+[11:51:04] member 4: representation trained (230s)
+[11:51:30] member 4: done (255s), n_A=136 n_B=87 n_C=47
+[11:55:44] member 5: representation trained (255s)
+[11:56:16] member 5: done (287s), n_A=132 n_B=91 n_C=47
+[11:56:16] === A03 finished
+E:\20260725桌面文件\BCI\交付\.venv_q2\lib\site-packages\joblib\externals\loky\backend\context.py:136: UserWarning: Could not find the number of physical cores for the following reason:
+found 0 physical cores < 1
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "E:\20260725桌面文件\BCI\交付\.venv_q2\lib\site-packages\joblib\externals\loky\backend\context.py", line 282, in _count_physical_cores
+    raise ValueError(f"found {cpu_count_physical} physical cores < 1")
+[11:56:42] === A04 protocol bspc-r1-v1 sha 49cdf03c68bf pilot=False
+[11:57:12]   vit ep 10/200 train 1.3571 val_nll 1.3617 val_acc 0.333
+[11:57:34]   vit ep 20/200 train 1.3483 val_nll 1.3525 val_acc 0.308
+[11:57:57]   vit ep 30/200 train 1.3294 val_nll 1.3729 val_acc 0.308
+[11:58:20]   vit ep 40/200 train 1.3726 val_nll 1.3726 val_acc 0.256
+[11:58:44]   vit ep 50/200 train 1.3493 val_nll 1.3503 val_acc 0.308
+[11:59:08]   vit ep 60/200 train 1.3311 val_nll 1.4026 val_acc 0.205
+[11:59:31]   vit ep 70/200 train 1.3046 val_nll 1.3778 val_acc 0.333
+[11:59:54]   vit ep 80/200 train 1.2763 val_nll 1.4198 val_acc 0.231
+[12:00:17]   vit ep 90/200 train 1.2819 val_nll 1.3977 val_acc 0.256
+[12:00:36]   vit ep 100/200 train 1.2412 val_nll 1.4421 val_acc 0.256
+[12:00:56]   vit ep 110/200 train 1.2454 val_nll 1.4508 val_acc 0.333
+[12:01:16]   vit ep 120/200 train 1.2226 val_nll 1.5410 val_acc 0.256
+[12:01:35]   vit ep 130/200 train 1.1760 val_nll 1.5390 val_acc 0.282
+[12:01:55]   vit ep 140/200 train 1.1876 val_nll 1.5279 val_acc 0.179
+[12:02:14]   vit ep 150/200 train 1.1142 val_nll 1.5665 val_acc 0.179
+[12:02:33]   vit ep 160/200 train 1.1194 val_nll 1.5654 val_acc 0.205
+[12:02:53]   vit ep 170/200 train 1.1252 val_nll 1.5485 val_acc 0.179
+[12:03:15]   vit ep 180/200 train 1.1317 val_nll 1.5732 val_acc 0.179
+[12:03:37]   vit ep 190/200 train 1.1692 val_nll 1.5712 val_acc 0.179
+[12:03:57]   vit ep 200/200 train 1.2300 val_nll 1.5731 val_acc 0.179
+[12:03:57] ViT epoch selection: 15 (425s)
+[12:03:59]   eegnet ep 10/300 train 1.3468 val_nll 1.3814 val_acc 0.282
+[12:04:01]   eegnet ep 20/300 train 1.2173 val_nll 1.3754 val_acc 0.308
+[12:04:04]   eegnet ep 30/300 train 1.0729 val_nll 1.3919 val_acc 0.231
+[12:04:06]   eegnet ep 40/300 train 0.9624 val_nll 1.3947 val_acc 0.256
+[12:04:08]   eegnet ep 50/300 train 0.7991 val_nll 1.4051 val_acc 0.333
+[12:04:10]   eegnet ep 60/300 train 0.6840 val_nll 1.4662 val_acc 0.359
+[12:04:12]   eegnet ep 70/300 train 0.6437 val_nll 1.5095 val_acc 0.359
+[12:04:14]   eegnet ep 80/300 train 0.4685 val_nll 1.5793 val_acc 0.282
+[12:04:17]   eegnet ep 90/300 train 0.4283 val_nll 1.6593 val_acc 0.333
+[12:04:19]   eegnet ep 100/300 train 0.4080 val_nll 1.7290 val_acc 0.308
+[12:04:21]   eegnet ep 110/300 train 0.3071 val_nll 1.7228 val_acc 0.308
+[12:04:23]   eegnet ep 120/300 train 0.3571 val_nll 1.8043 val_acc 0.308
+[12:04:26]   eegnet ep 130/300 train 0.3025 val_nll 1.8648 val_acc 0.333
+[12:04:28]   eegnet ep 140/300 train 0.2952 val_nll 1.9430 val_acc 0.308
+[12:04:30]   eegnet ep 150/300 train 0.2187 val_nll 1.9986 val_acc 0.282
+[12:04:32]   eegnet ep 160/300 train 0.2489 val_nll 1.9809 val_acc 0.308
+[12:04:34]   eegnet ep 170/300 train 0.1200 val_nll 2.0357 val_acc 0.308
+[12:04:37]   eegnet ep 180/300 train 0.2209 val_nll 2.0917 val_acc 0.282
+[12:04:39]   eegnet ep 190/300 train 0.1770 val_nll 2.1908 val_acc 0.308
+[12:04:41]   eegnet ep 200/300 train 0.1637 val_nll 2.2189 val_acc 0.308
+[12:04:43]   eegnet ep 210/300 train 0.1075 val_nll 2.2692 val_acc 0.308
+[12:04:45]   eegnet ep 220/300 train 0.1401 val_nll 2.3237 val_acc 0.282
+[12:04:47]   eegnet ep 230/300 train 0.1519 val_nll 2.3332 val_acc 0.282
+[12:04:49]   eegnet ep 240/300 train 0.1046 val_nll 2.3819 val_acc 0.385
+[12:04:51]   eegnet ep 250/300 train 0.1452 val_nll 2.4011 val_acc 0.359
+[12:04:53]   eegnet ep 260/300 train 0.0858 val_nll 2.4210 val_acc 0.333
+[12:04:56]   eegnet ep 270/300 train 0.1265 val_nll 2.4585 val_acc 0.282
+[12:04:58]   eegnet ep 280/300 train 0.0781 val_nll 2.4634 val_acc 0.308
+[12:05:00]   eegnet ep 290/300 train 0.1204 val_nll 2.5628 val_acc 0.333
+[12:05:02]   eegnet ep 300/300 train 0.0691 val_nll 2.5275 val_acc 0.359
+[12:05:02] EEGNet epoch selection: 19 (65s)
+[12:05:02] epochs (amendment 1): vit 15 (nll, v1 15), eegnet 19 (nll, v1 19)
+[12:06:09] member 1: representation trained (59s)
+[12:06:32] member 1: done (83s), n_A=127 n_B=92 n_C=43
+[12:07:27] member 2: representation trained (55s)
+[12:07:51] member 2: done (78s), n_A=128 n_B=91 n_C=43
+[12:08:52] member 3: representation trained (61s)
+[12:09:22] member 3: done (91s), n_A=131 n_B=88 n_C=43
+[12:10:41] member 4: representation trained (80s)
+[12:11:07] member 4: done (105s), n_A=138 n_B=81 n_C=43
+[12:12:20] member 5: representation trained (73s)
+[12:12:48] member 5: done (101s), n_A=133 n_B=86 n_C=43
+[12:12:48] === A04 finished
+[12:12:54] === A05 protocol bspc-r1-v1 sha 49cdf03c68bf pilot=False
+[12:13:25]   vit ep 10/200 train 1.3340 val_nll 1.5765 val_acc 0.190
+[12:13:49]   vit ep 20/200 train 1.3075 val_nll 1.5331 val_acc 0.262
+[12:14:14]   vit ep 30/200 train 1.2922 val_nll 1.5257 val_acc 0.167
+[12:14:37]   vit ep 40/200 train 1.2200 val_nll 1.4172 val_acc 0.262
+[12:15:01]   vit ep 50/200 train 1.2062 val_nll 1.5005 val_acc 0.286
+[12:15:24]   vit ep 60/200 train 1.1427 val_nll 1.5057 val_acc 0.238
+[12:15:46]   vit ep 70/200 train 1.2481 val_nll 1.5131 val_acc 0.238
+[12:16:09]   vit ep 80/200 train 1.1867 val_nll 1.4186 val_acc 0.405
+[12:16:32]   vit ep 90/200 train 1.1351 val_nll 1.4154 val_acc 0.286
+[12:16:56]   vit ep 100/200 train 1.1311 val_nll 1.4555 val_acc 0.238
+[12:17:19]   vit ep 110/200 train 1.1515 val_nll 1.4896 val_acc 0.190
+[12:17:42]   vit ep 120/200 train 1.1307 val_nll 1.5136 val_acc 0.214
+[12:18:06]   vit ep 130/200 train 1.1018 val_nll 1.5198 val_acc 0.214
+[12:18:29]   vit ep 140/200 train 1.1641 val_nll 1.4306 val_acc 0.286
+[12:18:52]   vit ep 150/200 train 1.1676 val_nll 1.4208 val_acc 0.238
+[12:19:16]   vit ep 160/200 train 1.0505 val_nll 1.4331 val_acc 0.286
+[12:19:41]   vit ep 170/200 train 1.1154 val_nll 1.5138 val_acc 0.262
+[12:20:04]   vit ep 180/200 train 1.1640 val_nll 1.5298 val_acc 0.238
+[12:20:28]   vit ep 190/200 train 1.0438 val_nll 1.5408 val_acc 0.238
+[12:20:52]   vit ep 200/200 train 1.1506 val_nll 1.5379 val_acc 0.238
+[12:20:52] ViT epoch selection: 67 (471s)
+[12:20:55]   eegnet ep 10/300 train 1.2740 val_nll 1.3763 val_acc 0.214
+[12:20:58]   eegnet ep 20/300 train 1.1813 val_nll 1.3670 val_acc 0.238
+[12:21:00]   eegnet ep 30/300 train 1.0617 val_nll 1.3695 val_acc 0.357
+[12:21:03]   eegnet ep 40/300 train 0.8754 val_nll 1.3923 val_acc 0.262
+[12:21:06]   eegnet ep 50/300 train 0.7620 val_nll 1.4566 val_acc 0.310
+[12:21:08]   eegnet ep 60/300 train 0.6304 val_nll 1.5107 val_acc 0.286
+[12:21:11]   eegnet ep 70/300 train 0.5464 val_nll 1.5706 val_acc 0.262
+[12:21:14]   eegnet ep 80/300 train 0.4800 val_nll 1.6593 val_acc 0.214
+[12:21:16]   eegnet ep 90/300 train 0.3535 val_nll 1.6972 val_acc 0.262
+[12:21:19]   eegnet ep 100/300 train 0.3367 val_nll 1.7672 val_acc 0.262
+[12:21:22]   eegnet ep 110/300 train 0.3005 val_nll 1.7870 val_acc 0.310
+[12:21:24]   eegnet ep 120/300 train 0.2652 val_nll 1.8823 val_acc 0.286
+[12:21:27]   eegnet ep 130/300 train 0.1880 val_nll 1.9127 val_acc 0.310
+[12:21:30]   eegnet ep 140/300 train 0.1838 val_nll 1.9695 val_acc 0.286
+[12:21:32]   eegnet ep 150/300 train 0.2202 val_nll 1.9975 val_acc 0.262
+[12:21:35]   eegnet ep 160/300 train 0.1931 val_nll 2.0605 val_acc 0.286
+[12:21:38]   eegnet ep 170/300 train 0.1839 val_nll 2.1678 val_acc 0.310
+[12:21:41]   eegnet ep 180/300 train 0.1370 val_nll 2.1634 val_acc 0.262
+[12:21:43]   eegnet ep 190/300 train 0.1672 val_nll 2.1351 val_acc 0.238
+[12:21:46]   eegnet ep 200/300 train 0.1500 val_nll 2.2683 val_acc 0.238
+[12:21:49]   eegnet ep 210/300 train 0.1077 val_nll 2.2956 val_acc 0.190
+[12:21:51]   eegnet ep 220/300 train 0.1714 val_nll 2.2671 val_acc 0.214
+[12:21:54]   eegnet ep 230/300 train 0.1182 val_nll 2.3265 val_acc 0.214
+[12:21:57]   eegnet ep 240/300 train 0.0896 val_nll 2.3523 val_acc 0.238
+[12:21:59]   eegnet ep 250/300 train 0.0749 val_nll 2.3884 val_acc 0.238
+[12:22:03]   eegnet ep 260/300 train 0.1571 val_nll 2.4176 val_acc 0.238
+[12:22:05]   eegnet ep 270/300 train 0.0758 val_nll 2.4632 val_acc 0.238
+[12:22:08]   eegnet ep 280/300 train 0.0609 val_nll 2.4425 val_acc 0.214
+[12:22:10]   eegnet ep 290/300 train 0.0696 val_nll 2.5427 val_acc 0.214
+[12:22:13]   eegnet ep 300/300 train 0.0753 val_nll 2.5313 val_acc 0.238
+[12:22:13] EEGNet epoch selection: 25 (81s)
+[12:22:13] epochs (amendment 1): vit 67 (nll, v1 67), eegnet 25 (nll, v1 25)
+[12:26:17] member 1: representation trained (236s)
+[12:26:49] member 1: done (268s), n_A=129 n_B=87 n_C=46
+[12:30:38] member 2: representation trained (228s)
+[12:31:11] member 2: done (262s), n_A=124 n_B=92 n_C=46
+[12:34:59] member 3: representation trained (228s)
+[12:35:31] member 3: done (260s), n_A=129 n_B=87 n_C=46
+[12:39:07] member 4: representation trained (216s)
+[12:39:31] member 4: done (240s), n_A=133 n_B=83 n_C=46
+[12:42:54] member 5: representation trained (203s)
+[12:43:20] member 5: done (229s), n_A=133 n_B=83 n_C=46
+[12:43:20] === A05 finished
+[12:43:25] === A06 protocol bspc-r1-v1 sha 49cdf03c68bf pilot=False
+[12:43:45]   vit ep 10/200 train 1.2844 val_nll 1.3739 val_acc 0.317
+[12:44:02]   vit ep 20/200 train 1.3077 val_nll 1.4159 val_acc 0.293
+[12:44:17]   vit ep 30/200 train 1.2221 val_nll 1.4125 val_acc 0.390
+[12:44:33]   vit ep 40/200 train 1.2420 val_nll 1.4479 val_acc 0.293
+[12:44:49]   vit ep 50/200 train 1.2193 val_nll 1.4705 val_acc 0.341
+[12:45:06]   vit ep 60/200 train 1.2504 val_nll 1.4296 val_acc 0.268
+[12:45:22]   vit ep 70/200 train 1.1453 val_nll 1.3920 val_acc 0.293
+[12:45:39]   vit ep 80/200 train 1.1127 val_nll 1.3424 val_acc 0.366
+[12:45:56]   vit ep 90/200 train 1.0863 val_nll 1.4281 val_acc 0.341
+[12:46:13]   vit ep 100/200 train 1.1404 val_nll 1.3424 val_acc 0.439
+[12:46:30]   vit ep 110/200 train 1.1012 val_nll 1.4444 val_acc 0.366
+[12:46:47]   vit ep 120/200 train 0.9529 val_nll 1.4902 val_acc 0.293
+[12:47:04]   vit ep 130/200 train 1.0183 val_nll 1.5098 val_acc 0.317
+[12:47:21]   vit ep 140/200 train 1.0372 val_nll 1.5710 val_acc 0.317
+[12:47:38]   vit ep 150/200 train 1.0504 val_nll 1.5732 val_acc 0.366
+[12:47:55]   vit ep 160/200 train 0.9785 val_nll 1.4947 val_acc 0.341
+[12:48:11]   vit ep 170/200 train 0.9889 val_nll 1.5052 val_acc 0.366
+[12:48:28]   vit ep 180/200 train 1.0008 val_nll 1.5303 val_acc 0.415
+[12:48:45]   vit ep 190/200 train 0.9092 val_nll 1.5347 val_acc 0.415
+[12:49:02]   vit ep 200/200 train 0.9936 val_nll 1.5349 val_acc 0.415
+[12:49:02] ViT epoch selection: 99 (332s)
+[12:49:04]   eegnet ep 10/300 train 1.3400 val_nll 1.3765 val_acc 0.268
+[12:49:06]   eegnet ep 20/300 train 1.2658 val_nll 1.3803 val_acc 0.268
+[12:49:08]   eegnet ep 30/300 train 1.0326 val_nll 1.3716 val_acc 0.268
+[12:49:10]   eegnet ep 40/300 train 0.9701 val_nll 1.3750 val_acc 0.366
+[12:49:12]   eegnet ep 50/300 train 0.8067 val_nll 1.4011 val_acc 0.341
+[12:49:14]   eegnet ep 60/300 train 0.7770 val_nll 1.4653 val_acc 0.341
+[12:49:15]   eegnet ep 70/300 train 0.7047 val_nll 1.5410 val_acc 0.220
+[12:49:17]   eegnet ep 80/300 train 0.6078 val_nll 1.5998 val_acc 0.293
+[12:49:19]   eegnet ep 90/300 train 0.5921 val_nll 1.6277 val_acc 0.268
+[12:49:21]   eegnet ep 100/300 train 0.4992 val_nll 1.7195 val_acc 0.244
+[12:49:23]   eegnet ep 110/300 train 0.5063 val_nll 1.7574 val_acc 0.220
+[12:49:25]   eegnet ep 120/300 train 0.4250 val_nll 1.8344 val_acc 0.220
+[12:49:27]   eegnet ep 130/300 train 0.3104 val_nll 1.9426 val_acc 0.244
+[12:49:29]   eegnet ep 140/300 train 0.3008 val_nll 1.9886 val_acc 0.268
+[12:49:31]   eegnet ep 150/300 train 0.3017 val_nll 1.9769 val_acc 0.268
+[12:49:33]   eegnet ep 160/300 train 0.2307 val_nll 2.0412 val_acc 0.195
+[12:49:35]   eegnet ep 170/300 train 0.2035 val_nll 2.0890 val_acc 0.220
+[12:49:37]   eegnet ep 180/300 train 0.2750 val_nll 2.1707 val_acc 0.195
+[12:49:39]   eegnet ep 190/300 train 0.2684 val_nll 2.2459 val_acc 0.220
+[12:49:40]   eegnet ep 200/300 train 0.1542 val_nll 2.1822 val_acc 0.244
+[12:49:42]   eegnet ep 210/300 train 0.2280 val_nll 2.2208 val_acc 0.244
+[12:49:44]   eegnet ep 220/300 train 0.2170 val_nll 2.2523 val_acc 0.195
+[12:49:46]   eegnet ep 230/300 train 0.2095 val_nll 2.2563 val_acc 0.244
+[12:49:48]   eegnet ep 240/300 train 0.2079 val_nll 2.2430 val_acc 0.195
+[12:49:50]   eegnet ep 250/300 train 0.1358 val_nll 2.3811 val_acc 0.195
+[12:49:52]   eegnet ep 260/300 train 0.1247 val_nll 2.3665 val_acc 0.220
+[12:49:53]   eegnet ep 270/300 train 0.1569 val_nll 2.5034 val_acc 0.244
+[12:49:55]   eegnet ep 280/300 train 0.1994 val_nll 2.5376 val_acc 0.220
+[12:49:57]   eegnet ep 290/300 train 0.1961 val_nll 2.4087 val_acc 0.268
+[12:49:59]   eegnet ep 300/300 train 0.1083 val_nll 2.4817 val_acc 0.244
+[12:49:59] EEGNet epoch selection: 34 (57s)
+[12:49:59] epochs (amendment 1): vit 99 (nll, v1 99), eegnet 34 (nll, v1 34)
+[12:54:09] member 1: representation trained (244s)
+[12:54:29] member 1: done (264s), n_A=114 n_B=76 n_C=29
+[12:58:44] member 2: representation trained (254s)
+[12:59:03] member 2: done (274s), n_A=122 n_B=68 n_C=29
+[13:03:15] member 3: representation trained (252s)
+[13:03:35] member 3: done (272s), n_A=117 n_B=73 n_C=29
+[13:07:33] member 4: representation trained (238s)
+[13:07:53] member 4: done (258s), n_A=111 n_B=79 n_C=29
+[13:11:38] member 5: representation trained (226s)
+[13:11:58] member 5: done (245s), n_A=106 n_B=84 n_C=29
+[13:11:58] === A06 finished
+[13:12:03] === A07 protocol bspc-r1-v1 sha 49cdf03c68bf pilot=False
+[13:12:27]   vit ep 10/200 train 1.2089 val_nll 1.2211 val_acc 0.478
+[13:12:48]   vit ep 20/200 train 1.1436 val_nll 1.1596 val_acc 0.413
+[13:13:11]   vit ep 30/200 train 1.1503 val_nll 1.1133 val_acc 0.435
+[13:13:35]   vit ep 40/200 train 1.1192 val_nll 1.1491 val_acc 0.435
+[13:14:00]   vit ep 50/200 train 1.0959 val_nll 1.2034 val_acc 0.435
+[13:14:26]   vit ep 60/200 train 0.9924 val_nll 1.1423 val_acc 0.457
+[13:14:51]   vit ep 70/200 train 0.9879 val_nll 1.1565 val_acc 0.457
+[13:15:17]   vit ep 80/200 train 0.9604 val_nll 1.1733 val_acc 0.391
+[13:15:43]   vit ep 90/200 train 1.0972 val_nll 1.1740 val_acc 0.457
+[13:16:10]   vit ep 100/200 train 0.9237 val_nll 1.2570 val_acc 0.457
+[13:16:36]   vit ep 110/200 train 0.9780 val_nll 1.1549 val_acc 0.543
+[13:17:02]   vit ep 120/200 train 0.9040 val_nll 1.1905 val_acc 0.435
+[13:17:29]   vit ep 130/200 train 0.9146 val_nll 1.1870 val_acc 0.478
+[13:17:57]   vit ep 140/200 train 0.9212 val_nll 1.1819 val_acc 0.435
+[13:18:25]   vit ep 150/200 train 0.9168 val_nll 1.1572 val_acc 0.435
+[13:18:52]   vit ep 160/200 train 0.8588 val_nll 1.1573 val_acc 0.457
+[13:19:20]   vit ep 170/200 train 0.8702 val_nll 1.2100 val_acc 0.457
+[13:19:47]   vit ep 180/200 train 0.8800 val_nll 1.1771 val_acc 0.457
+[13:20:15]   vit ep 190/200 train 0.8849 val_nll 1.1879 val_acc 0.457
+[13:20:43]   vit ep 200/200 train 0.8062 val_nll 1.1873 val_acc 0.457
+[13:20:43] ViT epoch selection: 44 (513s)
+[13:20:46]   eegnet ep 10/300 train 1.3318 val_nll 1.3934 val_acc 0.217
+[13:20:50]   eegnet ep 20/300 train 1.2095 val_nll 1.3728 val_acc 0.283
+[13:20:53]   eegnet ep 30/300 train 1.0425 val_nll 1.3456 val_acc 0.326
+[13:20:57]   eegnet ep 40/300 train 0.9400 val_nll 1.3076 val_acc 0.370
+[13:21:00]   eegnet ep 50/300 train 0.7581 val_nll 1.2741 val_acc 0.370
+[13:21:03]   eegnet ep 60/300 train 0.6950 val_nll 1.2288 val_acc 0.370
+[13:21:06]   eegnet ep 70/300 train 0.5276 val_nll 1.1851 val_acc 0.435
+[13:21:10]   eegnet ep 80/300 train 0.3994 val_nll 1.0527 val_acc 0.543
+[13:21:13]   eegnet ep 90/300 train 0.3535 val_nll 0.9728 val_acc 0.543
+[13:21:16]   eegnet ep 100/300 train 0.3880 val_nll 0.9970 val_acc 0.565
+[13:21:19]   eegnet ep 110/300 train 0.2186 val_nll 1.0126 val_acc 0.543
+[13:21:22]   eegnet ep 120/300 train 0.1660 val_nll 1.0050 val_acc 0.543
+[13:21:25]   eegnet ep 130/300 train 0.1381 val_nll 1.0340 val_acc 0.565
+[13:21:28]   eegnet ep 140/300 train 0.2013 val_nll 1.0082 val_acc 0.587
+[13:21:32]   eegnet ep 150/300 train 0.1552 val_nll 1.0294 val_acc 0.609
+[13:21:35]   eegnet ep 160/300 train 0.1324 val_nll 1.0523 val_acc 0.587
+[13:21:39]   eegnet ep 170/300 train 0.1452 val_nll 1.0652 val_acc 0.587
+[13:21:42]   eegnet ep 180/300 train 0.1111 val_nll 1.1219 val_acc 0.587
+[13:21:45]   eegnet ep 190/300 train 0.0851 val_nll 1.1011 val_acc 0.565
+[13:21:48]   eegnet ep 200/300 train 0.1148 val_nll 1.1339 val_acc 0.587
+[13:21:51]   eegnet ep 210/300 train 0.1149 val_nll 1.1354 val_acc 0.587
+[13:21:54]   eegnet ep 220/300 train 0.0975 val_nll 1.1117 val_acc 0.587
+[13:21:58]   eegnet ep 230/300 train 0.0911 val_nll 1.1415 val_acc 0.587
+[13:22:01]   eegnet ep 240/300 train 0.0703 val_nll 1.1255 val_acc 0.587
+[13:22:05]   eegnet ep 250/300 train 0.1195 val_nll 1.1113 val_acc 0.609
+[13:22:08]   eegnet ep 260/300 train 0.0642 val_nll 1.1315 val_acc 0.587
+[13:22:12]   eegnet ep 270/300 train 0.0818 val_nll 1.1048 val_acc 0.587
+[13:22:15]   eegnet ep 280/300 train 0.0407 val_nll 1.1296 val_acc 0.587
+[13:22:18]   eegnet ep 290/300 train 0.0405 val_nll 1.1751 val_acc 0.565
+[13:22:22]   eegnet ep 300/300 train 0.0413 val_nll 1.1781 val_acc 0.587
+[13:22:22] EEGNet epoch selection: 89 (99s)
+[13:22:22] epochs (amendment 1): vit 44 (nll, v1 44), eegnet 89 (nll, v1 89)
+[13:26:19] member 1: representation trained (227s)
+[13:26:54] member 1: done (262s), n_A=134 n_B=89 n_C=48
+[13:30:50] member 2: representation trained (236s)
+[13:31:23] member 2: done (269s), n_A=135 n_B=88 n_C=48
+[13:35:15] member 3: representation trained (232s)
+[13:35:51] member 3: done (269s), n_A=135 n_B=88 n_C=48
+[13:39:27] member 4: representation trained (216s)
+[13:39:57] member 4: done (246s), n_A=133 n_B=90 n_C=48
+[13:43:13] member 5: representation trained (196s)
+[13:43:44] member 5: done (227s), n_A=132 n_B=91 n_C=48
+[13:43:44] === A07 finished
+[13:43:51] === A08 protocol bspc-r1-v1 sha 49cdf03c68bf pilot=False
+[13:44:23]   vit ep 10/200 train 1.1925 val_nll 1.2071 val_acc 0.400
+[13:44:48]   vit ep 20/200 train 1.1566 val_nll 1.3033 val_acc 0.311
+[13:45:12]   vit ep 30/200 train 1.1319 val_nll 1.2466 val_acc 0.422
+[13:45:36]   vit ep 40/200 train 1.1163 val_nll 1.2052 val_acc 0.422
+[13:46:01]   vit ep 50/200 train 1.0668 val_nll 1.3122 val_acc 0.378
+[13:46:26]   vit ep 60/200 train 1.0916 val_nll 1.2160 val_acc 0.422
+[13:46:50]   vit ep 70/200 train 1.1182 val_nll 1.3818 val_acc 0.356
+[13:47:16]   vit ep 80/200 train 1.0556 val_nll 1.3540 val_acc 0.333
+[13:47:39]   vit ep 90/200 train 1.0984 val_nll 1.2891 val_acc 0.422
+[13:48:04]   vit ep 100/200 train 0.9777 val_nll 1.3465 val_acc 0.378
+[13:48:28]   vit ep 110/200 train 0.9234 val_nll 1.4013 val_acc 0.333
+[13:48:53]   vit ep 120/200 train 0.9467 val_nll 1.3574 val_acc 0.356
+[13:49:18]   vit ep 130/200 train 0.9757 val_nll 1.4204 val_acc 0.378
+[13:49:42]   vit ep 140/200 train 0.9418 val_nll 1.4362 val_acc 0.400
+[13:50:06]   vit ep 150/200 train 0.9619 val_nll 1.4432 val_acc 0.356
+[13:50:30]   vit ep 160/200 train 0.8763 val_nll 1.3830 val_acc 0.400
+[13:50:55]   vit ep 170/200 train 0.8918 val_nll 1.4107 val_acc 0.400
+[13:51:19]   vit ep 180/200 train 0.9802 val_nll 1.4248 val_acc 0.378
+[13:51:44]   vit ep 190/200 train 0.8703 val_nll 1.4245 val_acc 0.400
+[13:52:09]   vit ep 200/200 train 0.8906 val_nll 1.4217 val_acc 0.400
+[13:52:09] ViT epoch selection: 10 (491s)
+[13:52:12]   eegnet ep 10/300 train 1.2169 val_nll 1.2953 val_acc 0.311
+[13:52:15]   eegnet ep 20/300 train 1.0351 val_nll 1.1486 val_acc 0.422
+[13:52:18]   eegnet ep 30/300 train 0.8510 val_nll 0.9998 val_acc 0.556
+[13:52:21]   eegnet ep 40/300 train 0.6624 val_nll 0.9877 val_acc 0.578
+[13:52:23]   eegnet ep 50/300 train 0.4571 val_nll 1.0192 val_acc 0.533
+[13:52:26]   eegnet ep 60/300 train 0.3895 val_nll 1.0481 val_acc 0.556
+[13:52:29]   eegnet ep 70/300 train 0.3419 val_nll 1.0592 val_acc 0.533
+[13:52:32]   eegnet ep 80/300 train 0.3185 val_nll 1.0622 val_acc 0.533
+[13:52:34]   eegnet ep 90/300 train 0.2559 val_nll 1.0577 val_acc 0.600
+[13:52:37]   eegnet ep 100/300 train 0.2560 val_nll 1.1192 val_acc 0.600
+[13:52:40]   eegnet ep 110/300 train 0.1456 val_nll 1.0513 val_acc 0.644
+[13:52:43]   eegnet ep 120/300 train 0.1539 val_nll 1.1220 val_acc 0.644
+[13:52:46]   eegnet ep 130/300 train 0.1986 val_nll 1.0877 val_acc 0.600
+[13:52:48]   eegnet ep 140/300 train 0.1622 val_nll 1.1020 val_acc 0.622
+[13:52:51]   eegnet ep 150/300 train 0.1478 val_nll 1.1564 val_acc 0.622
+[13:52:54]   eegnet ep 160/300 train 0.0892 val_nll 1.1859 val_acc 0.644
+[13:52:57]   eegnet ep 170/300 train 0.0756 val_nll 1.1352 val_acc 0.644
+[13:53:00]   eegnet ep 180/300 train 0.1354 val_nll 1.1629 val_acc 0.622
+[13:53:02]   eegnet ep 190/300 train 0.0858 val_nll 1.2497 val_acc 0.600
+[13:53:05]   eegnet ep 200/300 train 0.1283 val_nll 1.1797 val_acc 0.622
+[13:53:08]   eegnet ep 210/300 train 0.0846 val_nll 1.2457 val_acc 0.622
+[13:53:11]   eegnet ep 220/300 train 0.0816 val_nll 1.2659 val_acc 0.622
+[13:53:14]   eegnet ep 230/300 train 0.0563 val_nll 1.2751 val_acc 0.622
+[13:53:16]   eegnet ep 240/300 train 0.0432 val_nll 1.3115 val_acc 0.622
+[13:53:19]   eegnet ep 250/300 train 0.0968 val_nll 1.2681 val_acc 0.644
+[13:53:22]   eegnet ep 260/300 train 0.0659 val_nll 1.2774 val_acc 0.622
+[13:53:25]   eegnet ep 270/300 train 0.0564 val_nll 1.2942 val_acc 0.644
+[13:53:27]   eegnet ep 280/300 train 0.0829 val_nll 1.4174 val_acc 0.622
+[13:53:30]   eegnet ep 290/300 train 0.0379 val_nll 1.2811 val_acc 0.667
+[13:53:33]   eegnet ep 300/300 train 0.0846 val_nll 1.3127 val_acc 0.622
+[13:53:33] EEGNet epoch selection: 42 (84s)
+[13:53:33] epochs (amendment 1): vit 10 (nll, v1 10), eegnet 42 (nll, v1 42)
+[13:54:50] member 1: representation trained (69s)
+[13:55:20] member 1: done (99s), n_A=131 n_B=88 n_C=45
+[13:56:31] member 2: representation trained (71s)
+[13:57:02] member 2: done (102s), n_A=131 n_B=88 n_C=45
+[13:58:12] member 3: representation trained (70s)
+[13:58:42] member 3: done (100s), n_A=133 n_B=86 n_C=45
+[13:59:52] member 4: representation trained (70s)
+[14:00:22] member 4: done (100s), n_A=131 n_B=88 n_C=45
+[14:01:32] member 5: representation trained (70s)
+[14:02:02] member 5: done (99s), n_A=131 n_B=88 n_C=45
+[14:02:02] === A08 finished
+[14:02:08] === A09 protocol bspc-r1-v1 sha 49cdf03c68bf pilot=False
+[14:02:34]   vit ep 10/200 train 1.2835 val_nll 1.2889 val_acc 0.368
+[14:02:53]   vit ep 20/200 train 1.2095 val_nll 1.2525 val_acc 0.421
+[14:03:13]   vit ep 30/200 train 1.2083 val_nll 1.2394 val_acc 0.474
+[14:03:35]   vit ep 40/200 train 1.1384 val_nll 1.3274 val_acc 0.447
+[14:03:53]   vit ep 50/200 train 1.0739 val_nll 1.2943 val_acc 0.421
+[14:04:13]   vit ep 60/200 train 0.9891 val_nll 1.4105 val_acc 0.368
+[14:04:32]   vit ep 70/200 train 1.0577 val_nll 1.2814 val_acc 0.421
+[14:04:51]   vit ep 80/200 train 1.0379 val_nll 1.2835 val_acc 0.447
+[14:05:09]   vit ep 90/200 train 1.0493 val_nll 1.3827 val_acc 0.395
+[14:05:29]   vit ep 100/200 train 1.0269 val_nll 1.5532 val_acc 0.368
+[14:05:48]   vit ep 110/200 train 0.9524 val_nll 1.5746 val_acc 0.447
+[14:06:07]   vit ep 120/200 train 0.9917 val_nll 1.4892 val_acc 0.395
+[14:06:26]   vit ep 130/200 train 1.0312 val_nll 1.5077 val_acc 0.395
+[14:06:45]   vit ep 140/200 train 0.9293 val_nll 1.5404 val_acc 0.395
+[14:07:04]   vit ep 150/200 train 0.8553 val_nll 1.5859 val_acc 0.421
+[14:07:23]   vit ep 160/200 train 0.9415 val_nll 1.5664 val_acc 0.474
+[14:07:41]   vit ep 170/200 train 0.8611 val_nll 1.5753 val_acc 0.395
+[14:08:00]   vit ep 180/200 train 0.8214 val_nll 1.6184 val_acc 0.421
+[14:08:19]   vit ep 190/200 train 0.8345 val_nll 1.5978 val_acc 0.421
+[14:08:37]   vit ep 200/200 train 0.8660 val_nll 1.5916 val_acc 0.421
+[14:08:37] ViT epoch selection: 27 (382s)
+[14:08:39]   eegnet ep 10/300 train 1.1872 val_nll 1.2687 val_acc 0.395
+[14:08:41]   eegnet ep 20/300 train 0.9385 val_nll 1.1309 val_acc 0.447
+[14:08:43]   eegnet ep 30/300 train 0.6927 val_nll 1.0656 val_acc 0.526
+[14:08:46]   eegnet ep 40/300 train 0.5737 val_nll 1.0020 val_acc 0.526
+[14:08:48]   eegnet ep 50/300 train 0.5910 val_nll 0.9525 val_acc 0.553
+[14:08:50]   eegnet ep 60/300 train 0.4066 val_nll 0.8868 val_acc 0.579
+[14:08:52]   eegnet ep 70/300 train 0.3570 val_nll 0.8673 val_acc 0.605
+[14:08:54]   eegnet ep 80/300 train 0.2430 val_nll 0.8027 val_acc 0.632
+[14:08:56]   eegnet ep 90/300 train 0.2840 val_nll 0.7764 val_acc 0.684
+[14:08:58]   eegnet ep 100/300 train 0.2808 val_nll 0.7673 val_acc 0.684
+[14:09:00]   eegnet ep 110/300 train 0.2147 val_nll 0.7538 val_acc 0.658
+[14:09:02]   eegnet ep 120/300 train 0.1623 val_nll 0.7407 val_acc 0.658
+[14:09:04]   eegnet ep 130/300 train 0.1188 val_nll 0.7675 val_acc 0.711
+[14:09:06]   eegnet ep 140/300 train 0.1153 val_nll 0.7592 val_acc 0.684
+[14:09:08]   eegnet ep 150/300 train 0.2015 val_nll 0.7124 val_acc 0.711
+[14:09:11]   eegnet ep 160/300 train 0.0999 val_nll 0.7622 val_acc 0.684
+[14:09:13]   eegnet ep 170/300 train 0.0994 val_nll 0.7505 val_acc 0.684
+[14:09:15]   eegnet ep 180/300 train 0.1312 val_nll 0.7522 val_acc 0.711
+[14:09:17]   eegnet ep 190/300 train 0.1080 val_nll 0.7783 val_acc 0.684
+[14:09:19]   eegnet ep 200/300 train 0.1114 val_nll 0.7199 val_acc 0.711
+[14:09:21]   eegnet ep 210/300 train 0.0869 val_nll 0.7341 val_acc 0.711
+[14:09:23]   eegnet ep 220/300 train 0.0992 val_nll 0.7685 val_acc 0.737
+[14:09:25]   eegnet ep 230/300 train 0.0695 val_nll 0.7962 val_acc 0.763
+[14:09:27]   eegnet ep 240/300 train 0.0554 val_nll 0.8020 val_acc 0.684
+[14:09:29]   eegnet ep 250/300 train 0.0652 val_nll 0.8030 val_acc 0.711
+[14:09:31]   eegnet ep 260/300 train 0.0459 val_nll 0.7408 val_acc 0.763
+[14:09:33]   eegnet ep 270/300 train 0.0500 val_nll 0.7967 val_acc 0.711
+[14:09:35]   eegnet ep 280/300 train 0.0800 val_nll 0.7802 val_acc 0.737
+[14:09:37]   eegnet ep 290/300 train 0.0539 val_nll 0.8018 val_acc 0.711
+[14:09:39]   eegnet ep 300/300 train 0.0569 val_nll 0.8022 val_acc 0.737
+[14:09:39] EEGNet epoch selection: 151 (62s)
+[14:09:39] epochs (amendment 1): vit 27 (nll, v1 27), eegnet 151 (nll, v1 151)
+[14:11:45] member 1: representation trained (117s)
+[14:12:09] member 1: done (141s), n_A=121 n_B=74 n_C=42
+[14:13:55] member 2: representation trained (106s)
+[14:14:18] member 2: done (129s), n_A=117 n_B=78 n_C=42
+[14:16:27] member 3: representation trained (129s)
+[14:16:57] member 3: done (159s), n_A=112 n_B=83 n_C=42
+[14:19:15] member 4: representation trained (138s)
+[14:19:45] member 4: done (168s), n_A=115 n_B=80 n_C=42
+[14:22:15] member 5: representation trained (150s)
+[14:22:45] member 5: done (181s), n_A=120 n_B=75 n_C=42
+[14:22:45] === A09 finished
+Traceback (most recent call last):
+  File "perturb.py", line 70, in <module>
+    main(sys.argv[1])
+  File "perturb.py", line 55, in main
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "perturb.py", line 55, in <listcomp>
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "E:\20260725桌面文件\BCI\revision\rv\train_subject.py", line 172, in load_bundle
+    b = pickle.load(f)
+AttributeError: Can't get attribute 'Bundle' on <module '__main__' from 'perturb.py'>
+FAILED perturb A01
+Traceback (most recent call last):
+  File "perturb.py", line 70, in <module>
+    main(sys.argv[1])
+  File "perturb.py", line 55, in main
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "perturb.py", line 55, in <listcomp>
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "E:\20260725桌面文件\BCI\revision\rv\train_subject.py", line 172, in load_bundle
+    b = pickle.load(f)
+AttributeError: Can't get attribute 'Bundle' on <module '__main__' from 'perturb.py'>
+FAILED perturb A02
+Traceback (most recent call last):
+  File "perturb.py", line 70, in <module>
+    main(sys.argv[1])
+  File "perturb.py", line 55, in main
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "perturb.py", line 55, in <listcomp>
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "E:\20260725桌面文件\BCI\revision\rv\train_subject.py", line 172, in load_bundle
+    b = pickle.load(f)
+AttributeError: Can't get attribute 'Bundle' on <module '__main__' from 'perturb.py'>
+FAILED perturb A03
+Traceback (most recent call last):
+  File "perturb.py", line 70, in <module>
+    main(sys.argv[1])
+  File "perturb.py", line 55, in main
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "perturb.py", line 55, in <listcomp>
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "E:\20260725桌面文件\BCI\revision\rv\train_subject.py", line 172, in load_bundle
+    b = pickle.load(f)
+AttributeError: Can't get attribute 'Bundle' on <module '__main__' from 'perturb.py'>
+FAILED perturb A04
+Traceback (most recent call last):
+  File "perturb.py", line 70, in <module>
+    main(sys.argv[1])
+  File "perturb.py", line 55, in main
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "perturb.py", line 55, in <listcomp>
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "E:\20260725桌面文件\BCI\revision\rv\train_subject.py", line 172, in load_bundle
+    b = pickle.load(f)
+AttributeError: Can't get attribute 'Bundle' on <module '__main__' from 'perturb.py'>
+FAILED perturb A05
+Traceback (most recent call last):
+  File "perturb.py", line 70, in <module>
+    main(sys.argv[1])
+  File "perturb.py", line 55, in main
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "perturb.py", line 55, in <listcomp>
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "E:\20260725桌面文件\BCI\revision\rv\train_subject.py", line 172, in load_bundle
+    b = pickle.load(f)
+AttributeError: Can't get attribute 'Bundle' on <module '__main__' from 'perturb.py'>
+FAILED perturb A06
+Traceback (most recent call last):
+  File "perturb.py", line 70, in <module>
+    main(sys.argv[1])
+  File "perturb.py", line 55, in main
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "perturb.py", line 55, in <listcomp>
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "E:\20260725桌面文件\BCI\revision\rv\train_subject.py", line 172, in load_bundle
+    b = pickle.load(f)
+AttributeError: Can't get attribute 'Bundle' on <module '__main__' from 'perturb.py'>
+FAILED perturb A07
+Traceback (most recent call last):
+  File "perturb.py", line 70, in <module>
+    main(sys.argv[1])
+  File "perturb.py", line 55, in main
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "perturb.py", line 55, in <listcomp>
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "E:\20260725桌面文件\BCI\revision\rv\train_subject.py", line 172, in load_bundle
+    b = pickle.load(f)
+AttributeError: Can't get attribute 'Bundle' on <module '__main__' from 'perturb.py'>
+FAILED perturb A08
+Traceback (most recent call last):
+  File "perturb.py", line 70, in <module>
+    main(sys.argv[1])
+  File "perturb.py", line 55, in main
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "perturb.py", line 55, in <listcomp>
+    bundles = [load_bundle(subject, j) for j in range(1, 6)]
+  File "E:\20260725桌面文件\BCI\revision\rv\train_subject.py", line 172, in load_bundle
+    b = pickle.load(f)
+AttributeError: Can't get attribute 'Bundle' on <module '__main__' from 'perturb.py'>
+FAILED perturb A09
+ALL DONE Sun Oct  4 14:23:42     2026
+=== perturb rerun Mon Oct  5 13:54:04     2026
+A01 drop1 done (96s)
+A01 drop3 done (98s)
+A01 drop5 done (99s)
+A01 eog1 done (101s)
+A01 eog2 done (110s)
+A01 eog4 done (114s)
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:183: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  b.vit.load_state_dict(torch.load(mdir / f"member{j}_vit.pt"))
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:185: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  eeg.load_state_dict(torch.load(mdir / f"member{j}_eegnet.pt"))
+A02 drop1 done (195s)
+A02 drop3 done (151s)
+A02 drop5 done (180s)
+A02 eog1 done (176s)
+A02 eog2 done (183s)
+A02 eog4 done (183s)
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:183: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  b.vit.load_state_dict(torch.load(mdir / f"member{j}_vit.pt"))
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:185: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  eeg.load_state_dict(torch.load(mdir / f"member{j}_eegnet.pt"))
+A03 drop1 done (96s)
+A03 drop3 done (90s)
+A03 drop5 done (89s)
+A03 eog1 done (103s)
+A03 eog2 done (93s)
+A03 eog4 done (89s)
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:183: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  b.vit.load_state_dict(torch.load(mdir / f"member{j}_vit.pt"))
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:185: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  eeg.load_state_dict(torch.load(mdir / f"member{j}_eegnet.pt"))
+A04 drop1 done (75s)
+A04 drop3 done (76s)
+A04 drop5 done (109s)
+A04 eog1 done (109s)
+A04 eog2 done (107s)
+A04 eog4 done (108s)
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:183: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  b.vit.load_state_dict(torch.load(mdir / f"member{j}_vit.pt"))
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:185: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  eeg.load_state_dict(torch.load(mdir / f"member{j}_eegnet.pt"))
+A05 drop1 done (132s)
+A05 drop3 done (134s)
+A05 drop5 done (136s)
+A05 eog1 done (131s)
+A05 eog2 done (130s)
+A05 eog4 done (141s)
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:183: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  b.vit.load_state_dict(torch.load(mdir / f"member{j}_vit.pt"))
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:185: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  eeg.load_state_dict(torch.load(mdir / f"member{j}_eegnet.pt"))
+A06 drop1 done (127s)
+A06 drop3 done (125s)
+A06 drop5 done (124s)
+A06 eog1 done (124s)
+A06 eog2 done (124s)
+A06 eog4 done (124s)
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:183: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  b.vit.load_state_dict(torch.load(mdir / f"member{j}_vit.pt"))
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:185: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  eeg.load_state_dict(torch.load(mdir / f"member{j}_eegnet.pt"))
+A07 drop1 done (162s)
+A07 drop3 done (144s)
+A07 drop5 done (92s)
+A07 eog1 done (90s)
+A07 eog2 done (94s)
+=== perturb rerun A07-A09 Mon Oct  5 16:27:34     2026
+A07 drop1 done (90s)
+A07 drop3 done (95s)
+A07 drop5 done (107s)
+A07 eog1 done (94s)
+A07 eog2 done (87s)
+A07 eog4 done (87s)
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:183: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  b.vit.load_state_dict(torch.load(mdir / f"member{j}_vit.pt"))
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:185: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  eeg.load_state_dict(torch.load(mdir / f"member{j}_eegnet.pt"))
+A08 drop1 done (84s)
+A08 drop3 done (90s)
+A08 drop5 done (109s)
+A08 eog1 done (91s)
+A08 eog2 done (89s)
+A08 eog4 done (89s)
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:183: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  b.vit.load_state_dict(torch.load(mdir / f"member{j}_vit.pt"))
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:185: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  eeg.load_state_dict(torch.load(mdir / f"member{j}_eegnet.pt"))
+A09 drop1 done (88s)
+A09 drop3 done (97s)
+A09 drop5 done (104s)
+A09 eog1 done (142s)
+A09 eog2 done (144s)
+A09 eog4 done (127s)
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:183: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  b.vit.load_state_dict(torch.load(mdir / f"member{j}_vit.pt"))
+E:\20260725桌面文件\BCI\revision\rv\train_subject.py:185: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  eeg.load_state_dict(torch.load(mdir / f"member{j}_eegnet.pt"))
+PERTURB DONE Mon Oct  5 16:58:09     2026

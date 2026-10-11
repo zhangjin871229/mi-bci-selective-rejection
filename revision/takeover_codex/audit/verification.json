@@ -1,0 +1,58 @@
+{
+  "timestamp_utc": "2026-10-05T12:32:21.308997+00:00",
+  "protocol_sha256": "49cdf03c68bf29ac62079592b500c38244f8db1a88a1377a10b6723b1f57ec4c",
+  "checks": 22996,
+  "failures": [],
+  "primary_recomputed": {
+    "diffs": [
+      0.11841797146462604,
+      0.08703878899167561,
+      0.23823180998758903,
+      0.06324492968043116,
+      0.06552735309387892,
+      0.024554076127720204,
+      0.10068694933147021,
+      0.12256011546726672,
+      0.10699203416817185
+    ],
+    "mean": 0.10302822536809218,
+    "mean_ci": [
+      0.07022504889735348,
+      0.14294085921043123
+    ],
+    "p": 0.00390625,
+    "r_rb": 1.0,
+    "n": 9
+  },
+  "ts_msp_accepted_accuracy_gain": {
+    "diffs": [
+      0.039809974629229194,
+      0.04645386400934404,
+      0.07139080850421053,
+      0.07545086492454917,
+      0.05897435897435899,
+      0.0368217054263566,
+      0.04312373152289095,
+      0.07155391553915535,
+      0.10606060606060608
+    ],
+    "mean": 0.06107109217674454,
+    "mean_ci": [
+      0.04802456435251376,
+      0.07549517389057075
+    ],
+    "p": 0.00390625,
+    "r_rb": 1.0,
+    "n": 9
+  },
+  "findings": [
+    "Epoch selection is shared from member 1 (runs 3/4 fit, run 5 validation). B_j for members 2/3/4/5 overlaps these runs. Head trials were not directly used to train that member's representation, but some head labels indirectly influence the shared epoch. Do not claim complete absence from all model selection.",
+    "Whole-session unsupervised EOG OLS is fitted independently on T and E signals. This is offline/transductive preprocessing with E-signal access, not strictly train-only learned preprocessing or prospective online operation. It does not by itself establish E-label leakage.",
+    "Perturbations were applied to cleaned epochs before model-specific transforms, not before all preprocessing. EOG segments and propagation coefficients came from E eye-movement calibration, whereas the plan described T-eye calibration. Document this protocol departure; do not silently relabel it.",
+    "Main max_gmm outputs use the new ensemble. They do not reproduce the old model's tau=0.80 historical result.",
+    "Current random reference is one seeded random permutation. Matched-random gains are comparisons to that realization, not the analytic expectation; the expectation equals full accuracy.",
+    "Previously observed E results cannot become an unseen holdout by switching assistants. New FBCSP-GMM analysis must remain post-hoc/exploratory with all results reported.",
+    "Non-significance on EEGNet or versus random does not demonstrate equality; representation quality as a causal explanation remains a hypothesis, not an established mechanism."
+  ],
+  "scope": "Numerical and code-path audit of inherited outputs; not an end-to-end retraining or proof of historical freeze timing."
+}

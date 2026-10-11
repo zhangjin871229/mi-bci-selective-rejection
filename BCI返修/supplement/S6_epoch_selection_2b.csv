@@ -1,0 +1,10 @@
+subject,network,selected_epochs,rule
+B01,vit,61,nll
+B02,vit,44,nll
+B03,vit,89,nll
+B04,vit,100,nll
+B05,vit,85,nll
+B06,vit,33,nll
+B07,vit,45,nll
+B08,vit,107,nll
+B09,vit,10,nll

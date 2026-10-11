@@ -1,0 +1,992 @@
+[
+  {
+    "subject": "A01",
+    "member": 1,
+    "n_B": 90,
+    "n_C": 45,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      23,
+      22,
+      23,
+      22
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.11152040576612687,
+    "inherited_bundle_sha256": "49bfa515895b70b8518588e2a2cbbf56bef231fa6edf8e202eabc0b98ac50d9b"
+  },
+  {
+    "subject": "A01",
+    "member": 2,
+    "n_B": 89,
+    "n_C": 45,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      22,
+      23,
+      22,
+      22
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.09605751789043872,
+    "inherited_bundle_sha256": "86e6ea231b730d8f1d10ceb16145d01f082a240786d8de34fdf656317008ad61"
+  },
+  {
+    "subject": "A01",
+    "member": 3,
+    "n_B": 92,
+    "n_C": 45,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      23,
+      24,
+      22,
+      23
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.08189155554718586,
+    "inherited_bundle_sha256": "8decd94b9dd7cf89fc8feaad63d1b4f1d8674e6170434394ff76600a148155eb"
+  },
+  {
+    "subject": "A01",
+    "member": 4,
+    "n_B": 93,
+    "n_C": 45,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      24,
+      24,
+      22,
+      23
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.15225974591864624,
+    "inherited_bundle_sha256": "ee1877f1545177ecf0fd9f53ae50d5ac1d62d23d5721d9df7dd080ec6d6b4946"
+  },
+  {
+    "subject": "A01",
+    "member": 5,
+    "n_B": 92,
+    "n_C": 45,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      24,
+      23,
+      23,
+      22
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.14825141042772938,
+    "inherited_bundle_sha256": "c73fdf8c9766a8e51cb3b138344509eb1e4068d60c1c216cfdbdbebf00245e8d"
+  },
+  {
+    "subject": "A02",
+    "member": 1,
+    "n_B": 94,
+    "n_C": 40,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      24,
+      24,
+      23,
+      23
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.41265928759986414,
+    "inherited_bundle_sha256": "416632af72588058219403d230568d848e44c3bcc54a6af627a0ee179a29a7e4"
+  },
+  {
+    "subject": "A02",
+    "member": 2,
+    "n_B": 91,
+    "n_C": 40,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      23,
+      24,
+      22,
+      22
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.48492018510287516,
+    "inherited_bundle_sha256": "1c3a90b9881df95f11e58402041fc0f59714cc25813fa6670b2e7a4bf8c8d265"
+  },
+  {
+    "subject": "A02",
+    "member": 3,
+    "n_B": 90,
+    "n_C": 40,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      22,
+      24,
+      21,
+      23
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.5146647788841694,
+    "inherited_bundle_sha256": "1f8ce2205579af2bdc781141569fea19c08d68fdffe7fce34a3e40dc63c1b92b"
+  },
+  {
+    "subject": "A02",
+    "member": 4,
+    "n_B": 91,
+    "n_C": 40,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      22,
+      23,
+      22,
+      24
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.39628455131196955,
+    "inherited_bundle_sha256": "ce35f28865b2054854539c2629ae1c6ce4a1afab30211d759249b5aab5218052"
+  },
+  {
+    "subject": "A02",
+    "member": 5,
+    "n_B": 94,
+    "n_C": 40,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      23,
+      23,
+      24,
+      24
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.37459988551628853,
+    "inherited_bundle_sha256": "933b7d3b4e29d77e74babc575eed67d149a6e7c29af7394106cae64cb319b34e"
+  },
+  {
+    "subject": "A03",
+    "member": 1,
+    "n_B": 89,
+    "n_C": 47,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      23,
+      22,
+      20,
+      24
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.2269750897359069,
+    "inherited_bundle_sha256": "c4f19d6220788d9c46dff201509cb382edfaa8b63eada9d4a16bd933809b0790"
+  },
+  {
+    "subject": "A03",
+    "member": 2,
+    "n_B": 91,
+    "n_C": 47,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      24,
+      22,
+      22,
+      23
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.2978800844779137,
+    "inherited_bundle_sha256": "0400f0c0ab056b4af174d103b0703db1ef130fe1f9d649e6370b5daf1c6a4221"
+  },
+  {
+    "subject": "A03",
+    "member": 3,
+    "n_B": 88,
+    "n_C": 47,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      22,
+      22,
+      22,
+      22
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.2387781560860172,
+    "inherited_bundle_sha256": "8854c53384820736975d1d71d84fe350bd5557c75d8e57698a15176d216baeb1"
+  },
+  {
+    "subject": "A03",
+    "member": 4,
+    "n_B": 87,
+    "n_C": 47,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      22,
+      22,
+      22,
+      21
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.2373949679431856,
+    "inherited_bundle_sha256": "4703695a054ec902c193becaf69d66d7d3e2a0388aab81a191d7bef7d6e399aa"
+  },
+  {
+    "subject": "A03",
+    "member": 5,
+    "n_B": 91,
+    "n_C": 47,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      23,
+      24,
+      22,
+      22
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.30355853512697495,
+    "inherited_bundle_sha256": "1d0d474d738bc10d47632983b3d7ca0f4d7906a7b6a0884172927c802bcb90c4"
+  },
+  {
+    "subject": "A04",
+    "member": 1,
+    "n_B": 92,
+    "n_C": 43,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      21,
+      23,
+      24,
+      24
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.5524173805249618,
+    "inherited_bundle_sha256": "fd3035e7ccbdf6dd604810f2117cd5cd82c85bcd12feb505e861184567af8b9b"
+  },
+  {
+    "subject": "A04",
+    "member": 2,
+    "n_B": 91,
+    "n_C": 43,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      21,
+      23,
+      23,
+      24
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.4349709366440338,
+    "inherited_bundle_sha256": "df1a48df251cacea6beeeeb477547cc7389d714476b63af5181ab77d9b0adb8b"
+  },
+  {
+    "subject": "A04",
+    "member": 3,
+    "n_B": 88,
+    "n_C": 43,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      21,
+      23,
+      21,
+      23
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.5878984009670998,
+    "inherited_bundle_sha256": "452a3137e0d2da5442f42a01f4f9dc4f33116cd298e7ed83ef90eac95e1af8a7"
+  },
+  {
+    "subject": "A04",
+    "member": 4,
+    "n_B": 81,
+    "n_C": 43,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      19,
+      22,
+      20,
+      20
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.5821389495534047,
+    "inherited_bundle_sha256": "c6cb26b5a94185f75c889f407f9273fa597c09706e6ec422120866391c0bbe51"
+  },
+  {
+    "subject": "A04",
+    "member": 5,
+    "n_B": 86,
+    "n_C": 43,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      20,
+      23,
+      22,
+      21
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.5588137439713754,
+    "inherited_bundle_sha256": "82416c9d00fd99f7566648bc21c1b22b5de4ebda045760c7479af4715c56c673"
+  },
+  {
+    "subject": "A05",
+    "member": 1,
+    "n_B": 87,
+    "n_C": 46,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      21,
+      22,
+      21,
+      23
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.4903853454056938,
+    "inherited_bundle_sha256": "6de79a4f98983c9ad1a7212b05fbe38c472340f092fba1b7848c37ad1871e5c1"
+  },
+  {
+    "subject": "A05",
+    "member": 2,
+    "n_B": 92,
+    "n_C": 46,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      22,
+      23,
+      23,
+      24
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.39605714245777035,
+    "inherited_bundle_sha256": "ef9ad6b3e85bf65dfde76d997a9876c466681a07d13ebf111e5af1fbac86e951"
+  },
+  {
+    "subject": "A05",
+    "member": 3,
+    "n_B": 87,
+    "n_C": 46,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      21,
+      21,
+      24,
+      21
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.3977275157598672,
+    "inherited_bundle_sha256": "4773de93a42ff6856b97ef334d7101fac7c84fc9e56b4578da812307c154e9a2"
+  },
+  {
+    "subject": "A05",
+    "member": 4,
+    "n_B": 83,
+    "n_C": 46,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      19,
+      21,
+      23,
+      20
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.2804687399538064,
+    "inherited_bundle_sha256": "ca7e9de9e537bf5a8e76fe54b97fa7d0590a9c066d3f08e7f60573bc8cdb3479"
+  },
+  {
+    "subject": "A05",
+    "member": 5,
+    "n_B": 83,
+    "n_C": 46,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      19,
+      21,
+      21,
+      22
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.594564074426778,
+    "inherited_bundle_sha256": "0cbe0e4359c6c29c31176eb2fe8c217a6e3e842783bf89d37356aa3fd16b4b4a"
+  },
+  {
+    "subject": "A06",
+    "member": 1,
+    "n_B": 76,
+    "n_C": 29,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      20,
+      19,
+      17,
+      20
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.5317042743673789,
+    "inherited_bundle_sha256": "a3b7aff906eb0b502e54c311d905b3e3d2536fdaeedda0d35fc49ce164f22807"
+  },
+  {
+    "subject": "A06",
+    "member": 2,
+    "n_B": 68,
+    "n_C": 29,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      19,
+      18,
+      14,
+      17
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.540767824415699,
+    "inherited_bundle_sha256": "5e62a80cbd029fb3d573c73d22d6e6673cec61f0fd73b33c51cdd0d0ad141136"
+  },
+  {
+    "subject": "A06",
+    "member": 3,
+    "n_B": 73,
+    "n_C": 29,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      20,
+      18,
+      17,
+      18
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.2870231322460464,
+    "inherited_bundle_sha256": "7d229e63d81dcdbf883645a1ee1e6c23afee36d23210917ebf5c5fe2ac251cf8"
+  },
+  {
+    "subject": "A06",
+    "member": 4,
+    "n_B": 79,
+    "n_C": 29,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      18,
+      21,
+      19,
+      21
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.5984517827582458,
+    "inherited_bundle_sha256": "4f325897e03b854152bbf7fa202545e3b338e9fc3a2766d2fcc08871a37f1ce2"
+  },
+  {
+    "subject": "A06",
+    "member": 5,
+    "n_B": 84,
+    "n_C": 29,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      21,
+      22,
+      21,
+      20
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.4859138992205475,
+    "inherited_bundle_sha256": "b2a7baef4b27551f23b5ad64b3ca413dc8f6b90bf714dcd860b67e9a8e00826e"
+  },
+  {
+    "subject": "A07",
+    "member": 1,
+    "n_B": 89,
+    "n_C": 48,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      23,
+      22,
+      20,
+      24
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.09729830576836258,
+    "inherited_bundle_sha256": "e0ada8fc680c0d1d91ecb4a13edcd243dfe67274773fd04d9c90dd729c7417f8"
+  },
+  {
+    "subject": "A07",
+    "member": 2,
+    "n_B": 88,
+    "n_C": 48,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      21,
+      22,
+      21,
+      24
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.09155911392644839,
+    "inherited_bundle_sha256": "eee43fdac9e7f9273e4caf00b1c8cbb38644b6b60ee04de6972ff45df7771290"
+  },
+  {
+    "subject": "A07",
+    "member": 3,
+    "n_B": 88,
+    "n_C": 48,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      21,
+      21,
+      23,
+      23
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.1398050449445843,
+    "inherited_bundle_sha256": "373d18f953ca97599e74d053f655feab98a4fdb6146a8eba3c465e5ceea33330"
+  },
+  {
+    "subject": "A07",
+    "member": 4,
+    "n_B": 90,
+    "n_C": 48,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      22,
+      21,
+      24,
+      23
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.10476625843721128,
+    "inherited_bundle_sha256": "47fbe0754e8e683a6adc2c2d0b1b3002a944574a97910191c31db604cc0d6ebb"
+  },
+  {
+    "subject": "A07",
+    "member": 5,
+    "n_B": 91,
+    "n_C": 48,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      23,
+      22,
+      22,
+      24
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.13796996440003229,
+    "inherited_bundle_sha256": "5bd18ab4ab283d64bbb18322e901f6ca946536f2e84d2c187575b5bbc46034fc"
+  },
+  {
+    "subject": "A08",
+    "member": 1,
+    "n_B": 88,
+    "n_C": 45,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      22,
+      21,
+      21,
+      24
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.23482573367697854,
+    "inherited_bundle_sha256": "3185b1857780cfe90f6e1616feaa7d73231da0fed6cf537f40b600b0137d0981"
+  },
+  {
+    "subject": "A08",
+    "member": 2,
+    "n_B": 88,
+    "n_C": 45,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      20,
+      23,
+      21,
+      24
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.243568869479329,
+    "inherited_bundle_sha256": "25c3aec4585663f2080a4b115e9d029e26ef00bac209ee1133402333b643a832"
+  },
+  {
+    "subject": "A08",
+    "member": 3,
+    "n_B": 86,
+    "n_C": 45,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      21,
+      22,
+      20,
+      23
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.2532230516217276,
+    "inherited_bundle_sha256": "66ed7a5531ab517d76b9cf182d7c931c0c0b94ceacc8dbba72abf7c5e0730dfe"
+  },
+  {
+    "subject": "A08",
+    "member": 4,
+    "n_B": 88,
+    "n_C": 45,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      22,
+      23,
+      21,
+      22
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.25149864677531236,
+    "inherited_bundle_sha256": "f9a7f91071ea4d3ec115d0e6706fee8caa4a0f3b2b28d2bd0f3837ff4998f111"
+  },
+  {
+    "subject": "A08",
+    "member": 5,
+    "n_B": 88,
+    "n_C": 45,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      23,
+      21,
+      21,
+      23
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.259757036594921,
+    "inherited_bundle_sha256": "1909d68e000fee19588fc19fa9d4a65897825d1ec268a83fe0d2a2d9944449d7"
+  },
+  {
+    "subject": "A09",
+    "member": 1,
+    "n_B": 74,
+    "n_C": 42,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      17,
+      22,
+      17,
+      18
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.0647935862523197,
+    "inherited_bundle_sha256": "7739facb1091bad6d1de3d158e99554eb5132e18c0141af84dc26026c96b6863"
+  },
+  {
+    "subject": "A09",
+    "member": 2,
+    "n_B": 78,
+    "n_C": 42,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      19,
+      18,
+      21,
+      20
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.15731802966485883,
+    "inherited_bundle_sha256": "8eb007e9b27089f31c47114df88b0d5b7bca7ff46baabf2fe91e47ac609510bf"
+  },
+  {
+    "subject": "A09",
+    "member": 3,
+    "n_B": 83,
+    "n_C": 42,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      20,
+      20,
+      22,
+      21
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.12554021270854437,
+    "inherited_bundle_sha256": "ccf8d8948828ab1ae7a50a4ab1d6b9af15c45ad418582e2bba85a65577f71536"
+  },
+  {
+    "subject": "A09",
+    "member": 4,
+    "n_B": 80,
+    "n_C": 42,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      17,
+      22,
+      21,
+      20
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.09643394705318806,
+    "inherited_bundle_sha256": "c8c4b180a65f70f18197167765218342182efa025503e8601e52dd0934e0ea71"
+  },
+  {
+    "subject": "A09",
+    "member": 5,
+    "n_B": 75,
+    "n_C": 42,
+    "n_features": 16,
+    "pca_dim": 8,
+    "class_counts": [
+      15,
+      22,
+      19,
+      19
+    ],
+    "converged": [
+      true,
+      true,
+      true,
+      true
+    ],
+    "minimum_covariance": 0.07243344381929978,
+    "inherited_bundle_sha256": "81c63a66ed9e4cbab92155e0cf4e8c5df4f57b16aa4eab1bd922de2e6a0cb8e9"
+  }
+]

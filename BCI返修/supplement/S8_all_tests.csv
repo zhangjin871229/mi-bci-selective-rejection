@@ -1,0 +1,23 @@
+family,comparison,n,mean_diff,CI95_low,CI95_high,median_diff,W_plus,r_rb,p,p_holm
+"Primary (2a, two-sided)",concat: AURC aligned_gmm - msp,9,0.1030,0.0702,0.1429,0.1007,45.0,1.000,0.0039,—
+"Family A (2a, two-sided, Holm)",concat: AURC aligned_gmm - ts_msp,9,0.1030,0.0705,0.1430,0.0998,45.0,1.000,0.0039,0.0156
+"Family A (2a, two-sided, Holm)",concat: AURC aligned_gmm - neg_entropy,9,0.0995,0.0644,0.1416,0.0999,45.0,1.000,0.0039,0.0156
+"Family A (2a, two-sided, Holm)",concat: AURC aligned_gmm - ts_neg_entropy,9,0.0956,0.0599,0.1386,0.0897,45.0,1.000,0.0039,0.0156
+"Family A (2a, two-sided, Holm)",concat: AURC aligned_gmm - max_gmm,9,-0.0096,-0.0274,0.0092,-0.0120,14.0,-0.378,0.3594,0.3594
+"Family B (2a, two-sided, Holm)",aligned_gmm: accepted acc - full acc,9,0.0064,-0.0165,0.0238,0.0138,33.0,0.467,0.2500,0.7500
+"Family B (2a, two-sided, Holm)",aligned_gmm: accepted kappa - full kappa,9,-0.0006,-0.0420,0.0272,0.0187,32.0,0.422,0.3008,0.7500
+"Family B (2a, two-sided, Holm)",aligned_gmm: acc at matched coverage 0.8 - random rejection,9,0.0055,-0.0186,0.0282,0.0055,27.0,0.200,0.6523,0.7500
+"Family B (2a, two-sided, Holm)",ts_msp: accepted acc - full acc,9,0.0611,0.0480,0.0755,0.0590,45.0,1.000,0.0039,0.0234
+"Family B (2a, two-sided, Holm)",ts_msp: accepted kappa - full kappa,9,0.0723,0.0516,0.0937,0.0786,45.0,1.000,0.0039,0.0234
+"Family B (2a, two-sided, Holm)",ts_msp: acc at matched coverage 0.8 - random rejection,9,0.0541,0.0367,0.0751,0.0465,45.0,1.000,0.0039,0.0234
+"Family C (2a, two-sided, Holm)",eegnet: AURC aligned_gmm - msp,9,-0.0072,-0.0221,0.0129,-0.0088,10.0,-0.556,0.1641,0.3281
+"Family C (2a, two-sided, Holm)",eegnet: AURC aligned_gmm - ts_msp,9,-0.0083,-0.0235,0.0112,-0.0128,10.0,-0.556,0.1641,0.3281
+"Family D (2a, two-sided, Holm)",drop5 concat: AURC aligned_gmm - ts_msp,9,-0.0321,-0.0734,0.0045,-0.0365,11.0,-0.511,0.2031,0.2031
+"Family D (2a, two-sided, Holm)",eog4 concat: AURC aligned_gmm - ts_msp,9,0.1056,0.0668,0.1468,0.1056,45.0,1.000,0.0039,0.0078
+"Forced-choice kappa (2a, two-sided, Holm)",kappa concat - p_fbcsp,9,-0.0836,-0.1255,-0.0453,-0.0567,1.0,-0.956,0.0078,0.0156
+"Forced-choice kappa (2a, two-sided, Holm)",kappa concat - p_vit,9,0.2458,0.1539,0.3386,0.2450,45.0,1.000,0.0039,0.0156
+"Forced-choice kappa (2a, two-sided, Holm)",kappa concat - p_eeg,9,0.0391,-0.0222,0.1140,0.0245,29.0,0.289,0.4961,0.4961
+"Forced-choice kappa (2a, two-sided, Holm)",kappa concat - g_vit,9,0.2610,0.1689,0.3575,0.2453,45.0,1.000,0.0039,0.0156
+"Exploratory X1 (2a, post hoc, two-sided, Holm)",AURC fbcsp_gmm - msp,9,-0.0289,-0.0418,-0.0163,-0.0249,0.0,-1.000,0.0039,0.0078
+"Exploratory X1 (2a, post hoc, two-sided, Holm)",AURC fbcsp_gmm - ts_msp,9,-0.0289,-0.0423,-0.0156,-0.0275,0.0,-1.000,0.0039,0.0078
+"2b confirmatory (one-sided, single test)",2b: AURC(FBCSP-GMM) - AURC(MSP),9,-0.0290,-0.0649,-0.0035,-0.0193,9.0,-0.600,0.0645,—
