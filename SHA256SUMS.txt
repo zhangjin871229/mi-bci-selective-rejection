@@ -1,3 +1,4 @@
+705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da *./.gitattributes
 c84fded32bf3c67a1797936bd312930eb89717c3865b53346e22413d71cd0dd0 *./.gitignore
 99dd6ad5be398056bd62a9ec323fea9e1711552edb84c74a9feae92a04452215 *./BCI返修/fig1_pipeline.pdf
 4cd0f55d8a1f6ed8924823bb1c3287345da91c03f3dd996d645d9dcb532c43d6 *./BCI返修/fig1_pipeline.png
@@ -37,7 +38,7 @@ a9d52f6dc99eeb4efc56d87db6c641da1e96bf582731c408288cf37b84597753 *./BCI返修/su
 e88359c28f21625897424d773c84874426fef04bb7d7700599a0bcc5e7233625 *./BCI返修/supplement/S8_all_tests.csv
 a3711a17c7e0cb11e4e9338ec95f32ff563d802b3b94cbcd4defd74115ff122c *./BCI返修/supplement/S9_literature_comparison_TEMPLATE.csv
 4ba4bc01a102d395de2991c32a161a64a977c39aff6bad2eb3bd43b563f2a0c8 *./BCI返修/supplement/Supplementary_Material.md
-8b2e14cf3ab3e417cf9ad63203e08a4749726a3bb117f2f3cee1f2e00487b706 *./LICENSE
+7f10c7047a681dc6405921e129044f275f7a48404115fefea49c2ff4012dbe5d *./LICENSE
 7fc01ae8bc919f73d7f444c4e1015bdfd566b1032d131709d9a7cb8ae1797654 *./README.md
 a7f2992ca881596de2cbdbd1af5b5bf237ac2a1cc3f30e28d75b468436771054 *./requirements.txt
 2a5c7a3014728a2098fc126c65e01d8a42b10881216ebd5db1f54e8a38b80d28 *./revision/bci2b/RESULT_2b.md
